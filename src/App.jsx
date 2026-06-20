@@ -1,15 +1,7 @@
-function App(){
+import AppRoutes from "./AppRoutes";
 
-return(
-
-<div>
-
-<h1>Terrazza Amalfi</h1>
-
-</div>
-
-);
-
+function App() {
+  return <AppRoutes />;
 }
 
 export default App;

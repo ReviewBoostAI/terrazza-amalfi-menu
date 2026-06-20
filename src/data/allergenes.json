@@ -1,0 +1,72 @@
+{
+  "1": {
+    "it": "Glutine",
+    "en": "Gluten",
+    "de": "Gluten"
+  },
+  "2": {
+    "it": "Crostacei",
+    "en": "Crustaceans",
+    "de": "Krebstiere"
+  },
+  "3": {
+    "it": "Uova",
+    "en": "Eggs",
+    "de": "Eier"
+  },
+  "4": {
+    "it": "Pesce",
+    "en": "Fish",
+    "de": "Fisch"
+  },
+  "5": {
+    "it": "Arachidi",
+    "en": "Peanuts",
+    "de": "Erdnüsse"
+  },
+  "6": {
+    "it": "Soia",
+    "en": "Soy",
+    "de": "Soja"
+  },
+  "7": {
+    "it": "Latte",
+    "en": "Milk",
+    "de": "Milch"
+  },
+  "8": {
+    "it": "Frutta a guscio",
+    "en": "Tree Nuts",
+    "de": "Schalenfrüchte"
+  },
+  "9": {
+    "it": "Sedano",
+    "en": "Celery",
+    "de": "Sellerie"
+  },
+  "10": {
+    "it": "Senape",
+    "en": "Mustard",
+    "de": "Senf"
+  },
+  "11": {
+    "it": "Semi di sesamo",
+    "en": "Sesame",
+    "de": "Sesam"
+  },
+  "12": {
+    "it": "Anidride solforosa e solfiti",
+    "en": "Sulphites",
+    "de": "Sulfite"
+  },
+  "13": {
+    "it": "Lupini",
+    "en": "Lupin",
+    "de": "Lupinen"
+  },
+  "14": {
+    "it": "Molluschi",
+    "en": "Molluscs",
+    "de": "Weichtiere"
+  }
+}

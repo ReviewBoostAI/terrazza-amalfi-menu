@@ -1,0 +1,53 @@
+{
+    "settings": {
+    "restaurantName": "Terrazza Amalfi",
+    "city": "Jesolo",
+    "country": "Italia",
+    "coverCharge": 2.2,
+    "currency": "€",
+    "languages": [
+      "it",
+      "en",
+      "de"
+    ],
+    "defaultLanguage": "auto",
+    "showAllergens": true,
+    "showPrices": true,
+    "showAvailability": true,
+    "allowHiddenProducts": false,
+    "theme": {
+      "primary": "#b88646",
+      "secondary": "#3d2c1e",
+      "background": "#f7f4ef",
+      "text": "#222222"
+    },
+    "happyHour": {
+      "enabled": true,
+      "title": "Happy Hour",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "from": "18:00",
+      "to": "21:00",
+      "description": "2x1 Buy One Get One Free"
+    },
+    "music": {
+      "enabled": true,
+      "description": "Music by Nick"
+    },
+    "restaurantInfo": {
+      "wifi": true,
+      "automaticLanguage": true,
+      "qrMenu": true,
+      "adminPanel": true,
+      "liveUpdate": true,
+      "firebase": true
+    }
+  }
+}

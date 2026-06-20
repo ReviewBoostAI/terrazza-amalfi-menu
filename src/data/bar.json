@@ -1,0 +1,991 @@
+{
+    "softDrink": [
+      {
+        "id": 700,
+        "name": {
+          "it": "Bibita alla Spina Piccola",
+          "en": "Small Draft Soft Drink",
+          "de": "Kleines Softgetränk vom Fass"
+        },
+        "description": {
+          "it": "Coca Cola, Fanta, Lemonsoda, Tè Freddo, Tonica",
+          "en": "Coca Cola, Fanta, Lemonsoda, Iced Tea, Tonic",
+          "de": "Coca Cola, Fanta, Lemonsoda, Eistee, Tonic"
+        },
+        "price": 3,
+        "available": true
+      },
+      {
+        "id": 701,
+        "name": {
+          "it": "Bibita alla Spina Media",
+          "en": "Medium Draft Soft Drink",
+          "de": "Mittleres Softgetränk vom Fass"
+        },
+        "description": {
+          "it": "Coca Cola, Fanta, Lemonsoda, Tè Freddo, Tonica",
+          "en": "Coca Cola, Fanta, Lemonsoda, Iced Tea, Tonic",
+          "de": "Coca Cola, Fanta, Lemonsoda, Eistee, Tonic"
+        },
+        "price": 5,
+        "available": true
+      },
+      {
+        "id": 702,
+        "name": {
+          "it": "Bibita in Bottiglia o Lattina",
+          "en": "Bottle or Can Soft Drink",
+          "de": "Flasche oder Dose"
+        },
+        "description": {
+          "it": "Coca Cola, Fanta, Chinotto, Ginger Ale, Tassoni...",
+          "en": "Coca Cola, Fanta, Chinotto, Ginger Ale, Tassoni...",
+          "de": "Coca Cola, Fanta, Chinotto, Ginger Ale, Tassoni..."
+        },
+        "price": 3.5,
+        "available": true
+      },
+      {
+        "id": 703,
+        "name": {
+          "it": "Succo di Frutta",
+          "en": "Fruit Juice",
+          "de": "Fruchtsaft"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3,
+        "available": true
+      },
+      {
+        "id": 704,
+        "name": {
+          "it": "Acqua Minerale 0.5L",
+          "en": "Mineral Water 0.5L",
+          "de": "Mineralwasser 0,5L"
+        },
+        "description": {
+          "it": "Naturale o Frizzante",
+          "en": "Still or Sparkling",
+          "de": "Still oder Sprudel"
+        },
+        "price": 2,
+        "available": true
+      },
+      {
+        "id": 705,
+        "name": {
+          "it": "Acqua Minerale 0.75L",
+          "en": "Mineral Water 0.75L",
+          "de": "Mineralwasser 0,75L"
+        },
+        "description": {
+          "it": "Naturale o Frizzante",
+          "en": "Still or Sparkling",
+          "de": "Still oder Sprudel"
+        },
+        "price": 3.5,
+        "available": true
+      },
+      {
+        "id": 706,
+        "name": {
+          "it": "Spremuta d'Arancia",
+          "en": "Fresh Orange Juice",
+          "de": "Frisch gepresster Orangensaft"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 4,
+        "available": true
+      },
+      {
+        "id": 707,
+        "name": {
+          "it": "Frappè",
+          "en": "Milkshake",
+          "de": "Milchshake"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 6,
+        "available": true
+      },
+      {
+        "id": 708,
+        "name": {
+          "it": "Frullato di Frutta",
+          "en": "Fresh Fruit Smoothie",
+          "de": "Frucht-Smoothie"
+        },
+        "description": {
+          "it": "Frutta fresca",
+          "en": "Fresh fruit",
+          "de": "Frisches Obst"
+        },
+        "price": 7,
+        "available": true
+      },
+      {
+        "id": 709,
+        "name": {
+          "it": "Frullato con Yogurt",
+          "en": "Fruit Smoothie with Yogurt",
+          "de": "Frucht-Smoothie mit Joghurt"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 8,
+        "available": true
+      }
+    ],
+    "birre": [
+      {
+        "id": 800,
+        "name": {
+          "it": "Birra Bionda Piccola",
+          "en": "Small Draft Lager",
+          "de": "Kleines Helles vom Fass"
+        },
+        "description": {
+          "it": "Birra chiara alla spina",
+          "en": "Draft lager",
+          "de": "Helles Bier vom Fass"
+        },
+        "price": 3.5,
+        "available": true
+      },
+      {
+        "id": 801,
+        "name": {
+          "it": "Birra Bionda Media",
+          "en": "Medium Draft Lager",
+          "de": "Mittleres Helles vom Fass"
+        },
+        "description": {
+          "it": "Birra chiara alla spina",
+          "en": "Draft lager",
+          "de": "Helles Bier vom Fass"
+        },
+        "price": 5.5,
+        "available": true
+      },
+      {
+        "id": 802,
+        "name": {
+          "it": "Birra Ambrata Piccola",
+          "en": "Small Draft Amber Beer",
+          "de": "Kleines Amberbier vom Fass"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3.5,
+        "available": true
+      },
+      {
+        "id": 803,
+        "name": {
+          "it": "Birra Ambrata Media",
+          "en": "Medium Draft Amber Beer",
+          "de": "Mittleres Amberbier vom Fass"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 6,
+        "available": true
+      },
+      {
+        "id": 804,
+        "name": {
+          "it": "Weiss Piccola",
+          "en": "Small Weiss Beer",
+          "de": "Kleine Weißbier"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3.5,
+        "available": true
+      },
+      {
+        "id": 805,
+        "name": {
+          "it": "Weiss Media",
+          "en": "Medium Weiss Beer",
+          "de": "Große Weißbier"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 6,
+        "available": true
+      },
+      {
+        "id": 806,
+        "name": {
+          "it": "Birre in Bottiglia",
+          "en": "Bottled Beer",
+          "de": "Flaschenbier"
+        },
+        "description": {
+          "it": "Corona, Bud, Ceres, Heineken, Beck's, Ichnusa, Tennent's, Moretti Rossa, Erdinger, Franziskaner, Moretti Zero",
+          "en": "Corona, Bud, Ceres, Heineken, Beck's, Ichnusa, Tennent's, Moretti Rossa, Erdinger, Franziskaner, Moretti Zero",
+          "de": "Corona, Bud, Ceres, Heineken, Beck's, Ichnusa, Tennent's, Moretti Rossa, Erdinger, Franziskaner, Moretti Zero"
+        },
+        "price": 5,
+        "available": true
+      }
+    ],
+    "cantina": [
+      {
+        "id": 900,
+        "name": {
+          "it": "Vino della Casa - Calice Piccolo",
+          "en": "House Wine - Small Glass",
+          "de": "Hauswein - Kleines Glas"
+        },
+        "description": {
+          "it": "Bianco o Rosso",
+          "en": "White or Red",
+          "de": "Weiß oder Rot"
+        },
+        "price": 3,
+        "available": true
+      },
+      {
+        "id": 901,
+        "name": {
+          "it": "Vino della Casa - Calice Grande",
+          "en": "House Wine - Large Glass",
+          "de": "Hauswein - Großes Glas"
+        },
+        "description": {
+          "it": "Bianco o Rosso",
+          "en": "White or Red",
+          "de": "Weiß oder Rot"
+        },
+        "price": 5,
+        "available": true
+      },
+      {
+        "id": 902,
+        "name": {
+          "it": "Vino della Casa - 1/4 Litro",
+          "en": "House Wine - Quarter Liter",
+          "de": "Hauswein - Viertelliter"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 5,
+        "available": true
+      },
+      {
+        "id": 903,
+        "name": {
+          "it": "Vino della Casa - 1/2 Litro",
+          "en": "House Wine - Half Liter",
+          "de": "Hauswein - Halber Liter"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 904,
+        "name": {
+          "it": "Vino della Casa - 1 Litro",
+          "en": "House Wine - One Liter",
+          "de": "Hauswein - Ein Liter"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 15,
+        "available": true
+      },
+      {
+        "id": 905,
+        "name": {
+          "it": "Carta dei Vini",
+          "en": "Wine List",
+          "de": "Weinkarte"
+        },
+        "description": {
+          "it": "Richiedi la carta dei vini",
+          "en": "Ask for our wine list",
+          "de": "Fragen Sie nach unserer Weinkarte"
+        },
+        "price": null,
+        "available": true
+      }
+    ],
+    "aperitivi": [
+      {
+        "id": 950,
+        "name": {
+          "it": "Spritz Aperol",
+          "en": "Aperol Spritz",
+          "de": "Aperol Spritz"
+        },
+        "description": {
+          "it": "Aperol, Prosecco, Soda",
+          "en": "Aperol, Prosecco, Soda",
+          "de": "Aperol, Prosecco, Soda"
+        },
+        "price": 5,
+        "available": true
+      },
+      {
+        "id": 951,
+        "name": {
+          "it": "Spritz Campari",
+          "en": "Campari Spritz",
+          "de": "Campari Spritz"
+        },
+        "description": {
+          "it": "Campari, Prosecco, Soda",
+          "en": "Campari, Prosecco, Soda",
+          "de": "Campari, Prosecco, Soda"
+        },
+        "price": 5,
+        "available": true
+      },
+      {
+        "id": 952,
+        "name": {
+          "it": "Limoncello Spritz",
+          "en": "Limoncello Spritz",
+          "de": "Limoncello Spritz"
+        },
+        "description": {
+          "it": "Limoncello, Prosecco, Soda",
+          "en": "Limoncello, Prosecco, Soda",
+          "de": "Limoncello, Prosecco, Soda"
+        },
+        "price": 6.5,
+        "available": true
+      },
+      {
+        "id": 953,
+        "name": {
+          "it": "Hugo",
+          "en": "Hugo",
+          "de": "Hugo"
+        },
+        "description": {
+          "it": "Sambuco, Prosecco, Menta",
+          "en": "Elderflower, Prosecco, Mint",
+          "de": "Holunder, Prosecco, Minze"
+        },
+        "price": 5.5,
+        "available": true
+      },
+      {
+        "id": 954,
+        "name": {
+          "it": "Americano",
+          "en": "Americano",
+          "de": "Americano"
+        },
+        "description": {
+          "it": "Campari, Vermouth Rosso, Soda",
+          "en": "Campari, Red Vermouth, Soda",
+          "de": "Campari, Roter Wermut, Soda"
+        },
+        "price": 6.5,
+        "available": true
+      },
+      {
+        "id": 955,
+        "name": {
+          "it": "Bellini",
+          "en": "Bellini",
+          "de": "Bellini"
+        },
+        "description": {
+          "it": "Prosecco e Pesca",
+          "en": "Prosecco and Peach",
+          "de": "Prosecco und Pfirsich"
+        },
+        "price": 6,
+        "available": true
+      },
+      {
+        "id": 956,
+        "name": {
+          "it": "Rossini",
+          "en": "Rossini",
+          "de": "Rossini"
+        },
+        "description": {
+          "it": "Prosecco e Fragola",
+          "en": "Prosecco and Strawberry",
+          "de": "Prosecco und Erdbeere"
+        },
+        "price": 6,
+        "available": true
+      },
+      {
+        "id": 957,
+        "name": {
+          "it": "Mimosa",
+          "en": "Mimosa",
+          "de": "Mimosa"
+        },
+        "description": {
+          "it": "Prosecco e Arancia",
+          "en": "Prosecco and Orange Juice",
+          "de": "Prosecco und Orangensaft"
+        },
+        "price": 6,
+        "available": true
+      },
+      {
+        "id": 958,
+        "name": {
+          "it": "Martini",
+          "en": "Martini",
+          "de": "Martini"
+        },
+        "description": {
+          "it": "Bianco o Rosso",
+          "en": "White or Red",
+          "de": "Weiß oder Rot"
+        },
+        "price": 5,
+        "available": true
+      },
+      {
+        "id": 959,
+        "name": {
+          "it": "Campari Soda",
+          "en": "Campari Soda",
+          "de": "Campari Soda"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3,
+        "available": true
+      },
+      {
+        "id": 960,
+        "name": {
+          "it": "Gingerino",
+          "en": "Gingerino",
+          "de": "Gingerino"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3,
+        "available": true
+      },
+      {
+        "id": 961,
+        "name": {
+          "it": "San Bitter",
+          "en": "San Bitter",
+          "de": "San Bitter"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3,
+        "available": true
+      },
+      {
+        "id": 962,
+        "name": {
+          "it": "Crodino",
+          "en": "Crodino",
+          "de": "Crodino"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3,
+        "available": true
+      }
+    ],
+    "distillati": [
+      {
+        "id": 1000,
+        "name": {
+          "it": "Amari e Liquori",
+          "en": "Bitters & Liqueurs",
+          "de": "Liköre und Bitter"
+        },
+        "description": {
+          "it": "Selezione della casa",
+          "en": "House selection",
+          "de": "Auswahl des Hauses"
+        },
+        "price": 4.5,
+        "available": true
+      },
+      {
+        "id": 1001,
+        "name": {
+          "it": "Grappa Bianca",
+          "en": "White Grappa",
+          "de": "Grappa"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 4.5,
+        "available": true
+      },
+      {
+        "id": 1002,
+        "name": {
+          "it": "Grappa Premium",
+          "en": "Premium Grappa",
+          "de": "Premium Grappa"
+        },
+        "description": {
+          "it": "Distillati selezionati",
+          "en": "Selected spirits",
+          "de": "Ausgewählte Destillate"
+        },
+        "price": null,
+        "available": true
+      },
+      {
+        "id": 1003,
+        "name": {
+          "it": "Whisky Premium",
+          "en": "Premium Whisky",
+          "de": "Premium Whisky"
+        },
+        "description": {
+          "it": "Su richiesta",
+          "en": "Ask our staff",
+          "de": "Auf Anfrage"
+        },
+        "price": null,
+        "available": true
+      },
+      {
+        "id": 1004,
+        "name": {
+          "it": "Rum Premium",
+          "en": "Premium Rum",
+          "de": "Premium Rum"
+        },
+        "description": {
+          "it": "Su richiesta",
+          "en": "Ask our staff",
+          "de": "Auf Anfrage"
+        },
+        "price": null,
+        "available": true
+      },
+      {
+        "id": 1005,
+        "name": {
+          "it": "Gin Premium",
+          "en": "Premium Gin",
+          "de": "Premium Gin"
+        },
+        "description": {
+          "it": "Su richiesta",
+          "en": "Ask our staff",
+          "de": "Auf Anfrage"
+        },
+        "price": null,
+        "available": true
+      }
+    ],
+    "caffetteria": [
+      {
+        "id": 500,
+        "name": {
+          "it": "Caffè Espresso",
+          "en": "Espresso",
+          "de": "Espresso"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 1.5,
+        "available": true
+      },
+      {
+        "id": 501,
+        "name": {
+          "it": "Caffè Americano",
+          "en": "American Coffee",
+          "de": "Amerikanischer Kaffee"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 2,
+        "available": true
+      },
+      {
+        "id": 502,
+        "name": {
+          "it": "Caffè Corretto",
+          "en": "Espresso with Liquor",
+          "de": "Espresso mit Likör"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 2.5,
+        "available": true
+      },
+      {
+        "id": 503,
+        "name": {
+          "it": "Caffè Doppio",
+          "en": "Double Espresso",
+          "de": "Doppelter Espresso"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3,
+        "available": true
+      },
+      {
+        "id": 504,
+        "name": {
+          "it": "Caffè Decaffeinato",
+          "en": "Decaffeinated Coffee",
+          "de": "Entkoffeinierter Kaffee"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 1.5,
+        "available": true
+      },
+      {
+        "id": 505,
+        "name": {
+          "it": "Caffè Shakerato",
+          "en": "Shaken Coffee",
+          "de": "Shakerato"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 4.5,
+        "available": true
+      },
+      {
+        "id": 506,
+        "name": {
+          "it": "Cappuccino",
+          "en": "Cappuccino",
+          "de": "Cappuccino"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 2.5,
+        "available": true
+      },
+      {
+        "id": 507,
+        "name": {
+          "it": "Latte Macchiato",
+          "en": "Latte Macchiato",
+          "de": "Latte Macchiato"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3,
+        "available": true
+      },
+      {
+        "id": 508,
+        "name": {
+          "it": "Caffelatte con Amaretto",
+          "en": "Milk Coffee with Amaretto",
+          "de": "Milchkaffee mit Amaretto"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 4.5,
+        "available": true
+      },
+      {
+        "id": 509,
+        "name": {
+          "it": "Tè, Camomilla e Infusi",
+          "en": "Tea and Herbal Infusions",
+          "de": "Tee und Kräutertee"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3,
+        "available": true
+      },
+      {
+        "id": 510,
+        "name": {
+          "it": "Cioccolata Calda",
+          "en": "Hot Chocolate",
+          "de": "Heiße Schokolade"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 3.5,
+        "available": true
+      },
+      {
+        "id": 511,
+        "name": {
+          "it": "Cioccolata Calda con Panna",
+          "en": "Hot Chocolate with Whipped Cream",
+          "de": "Heiße Schokolade mit Sahne"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 4.5,
+        "available": true
+      },
+      {
+        "id": 512,
+        "name": {
+          "it": "Croissant",
+          "en": "Croissant",
+          "de": "Croissant"
+        },
+        "description": {
+          "it": "Brioches vegan farcite al momento",
+          "en": "Fresh filled vegan croissant",
+          "de": "Frisch gefülltes veganes Croissant"
+        },
+        "price": 1.5,
+        "available": true
+      },
+      {
+        "id": 513,
+        "name": {
+          "it": "Bailey's Coffee",
+          "en": "Bailey's Coffee",
+          "de": "Bailey's Coffee"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 7.5,
+        "available": true
+      },
+      {
+        "id": 514,
+        "name": {
+          "it": "Irish Coffee",
+          "en": "Irish Coffee",
+          "de": "Irish Coffee"
+        },
+        "description": {
+          "it": "",
+          "en": "",
+          "de": ""
+        },
+        "price": 8,
+        "available": true
+      }
+    ],
+    "gelateria": [
+      {
+        "id": 600,
+        "name": {
+          "it": "Coppa Fragola",
+          "en": "Strawberry Sundae",
+          "de": "Erdbeerbecher"
+        },
+        "description": {
+          "it": "Gelato alla vaniglia, fragole fresche e panna",
+          "en": "Vanilla ice cream, strawberries and whipped cream",
+          "de": "Vanilleeis, Erdbeeren und Sahne"
+        },
+        "price": 9,
+        "available": true
+      },
+      {
+        "id": 601,
+        "name": {
+          "it": "Coppa Africa",
+          "en": "Africa Sundae",
+          "de": "Afrika Becher"
+        },
+        "description": {
+          "it": "Banana, cioccolato e gelato",
+          "en": "Banana, chocolate and ice cream",
+          "de": "Banane, Schokolade und Eis"
+        },
+        "price": 9,
+        "available": true
+      },
+      {
+        "id": 602,
+        "name": {
+          "it": "Coppa Bailey's",
+          "en": "Bailey's Sundae",
+          "de": "Bailey's Becher"
+        },
+        "description": {
+          "it": "Gelato con liquore Bailey's",
+          "en": "Ice cream with Bailey's",
+          "de": "Eis mit Bailey's"
+        },
+        "price": 12,
+        "available": true
+      },
+      {
+        "id": 603,
+        "name": {
+          "it": "Coppa Amarena",
+          "en": "Cherry Sundae",
+          "de": "Amarena Becher"
+        },
+        "description": {
+          "it": "Fior di latte, amarene e panna",
+          "en": "Milk ice cream, cherries and whipped cream",
+          "de": "Milcheis, Amarena-Kirschen und Sahne"
+        },
+        "price": 9,
+        "available": true
+      },
+      {
+        "id": 604,
+        "name": {
+          "it": "Eiskaffee / Eischocolate",
+          "en": "Iced Coffee / Iced Chocolate",
+          "de": "Eiskaffee / Eisschokolade"
+        },
+        "description": {
+          "it": "Il classico dell'estate",
+          "en": "Summer classic",
+          "de": "Sommerklassiker"
+        },
+        "price": 9,
+        "available": true
+      },
+      {
+        "id": 605,
+        "name": {
+          "it": "Coppa Amaretto",
+          "en": "Amaretto Sundae",
+          "de": "Amaretto Becher"
+        },
+        "description": {
+          "it": "Gelato con liquore Amaretto",
+          "en": "Ice cream with Amaretto",
+          "de": "Eis mit Amaretto"
+        },
+        "price": 12,
+        "available": true
+      },
+      {
+        "id": 606,
+        "name": {
+          "it": "Coppa Pinocchio",
+          "en": "Pinocchio Sundae",
+          "de": "Pinocchio Becher"
+        },
+        "description": {
+          "it": "Coppa per bambini con gusti a scelta",
+          "en": "Kids ice cream with choice of flavours",
+          "de": "Kinderbecher mit Eissorten nach Wahl"
+        },
+        "price": 5.5,
+        "available": true
+      },
+      {
+        "id": 607,
+        "name": {
+          "it": "Banana Split",
+          "en": "Banana Split",
+          "de": "Banana Split"
+        },
+        "description": {
+          "it": "Banana, gelato, panna e cioccolato",
+          "en": "Banana, ice cream, whipped cream and chocolate",
+          "de": "Banane, Eis, Sahne und Schokolade"
+        },
+        "price": 9,
+        "available": true
+      }
+    ]
+  }

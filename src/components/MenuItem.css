@@ -1,0 +1,233 @@
+/* ===========================================================
+   MENU ITEM
+=========================================================== */
+
+.menu-item{
+    position:relative;
+    background:rgba(255,255,255,.92);
+    backdrop-filter:blur(14px);
+    border-radius:22px;
+    padding:24px;
+    margin-bottom:18px;
+    border:1px solid rgba(184,134,70,.12);
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+    transition:all .35s ease;
+    overflow:hidden;
+}
+
+.menu-item:hover{
+    transform:translateY(-4px);
+    box-shadow:0 20px 45px rgba(0,0,0,.10);
+}
+
+.menu-item::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:6px;
+    height:100%;
+    background:linear-gradient(
+        to bottom,
+        #d6b36a,
+        #9d6d2f
+    );
+}
+
+/* ===========================================================
+   INFO
+=========================================================== */
+
+.menu-info{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+}
+
+/* ===========================================================
+   TITLE
+=========================================================== */
+
+.menu-title{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:18px;
+}
+
+.menu-title h3{
+    font-family:"Cormorant Garamond",serif;
+    font-size:31px;
+    font-weight:700;
+    color:#3d2c1e;
+    line-height:1.15;
+}
+
+.menu-price{
+    font-size:26px;
+    font-weight:700;
+    color:#b88646;
+    white-space:nowrap;
+}
+
+/* ===========================================================
+   DESCRIPTION
+=========================================================== */
+
+.menu-description{
+    color:#6d6d6d;
+    font-size:15px;
+    line-height:1.7;
+}
+
+/* ===========================================================
+   FOOTER
+=========================================================== */
+
+.menu-footer{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+/* ===========================================================
+   BADGES
+=========================================================== */
+
+.badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:7px 12px;
+    border-radius:40px;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:.4px;
+}
+
+.badge.veg{
+    background:#edf9ee;
+    color:#2e7d32;
+}
+
+.badge.vegan{
+    background:#daf6df;
+    color:#1b5e20;
+}
+
+.badge.spicy{
+    background:#ffe8e6;
+    color:#d32f2f;
+}
+
+.badge.featured{
+    background:#fff3d6;
+    color:#a66a00;
+}
+
+/* ===========================================================
+   ALLERGENS
+=========================================================== */
+
+.menu-allergens{
+    display:inline-flex;
+    align-items:center;
+    width:max-content;
+    padding:7px 14px;
+    border-radius:30px;
+    background:#f5f5f5;
+    color:#666;
+    font-size:12px;
+    font-weight:500;
+}
+
+/* ===========================================================
+   DIVIDER
+=========================================================== */
+
+.menu-item::after{
+    content:"";
+    position:absolute;
+    left:22px;
+    right:22px;
+    bottom:0;
+    height:1px;
+    background:linear-gradient(
+        to right,
+        transparent,
+        rgba(184,134,70,.25),
+        transparent
+    );
+}
+
+/* ===========================================================
+   RESPONSIVE
+=========================================================== */
+
+@media(max-width:768px){
+
+    .menu-item{
+        padding:20px;
+        border-radius:18px;
+    }
+
+    .menu-title{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .menu-title h3{
+        font-size:27px;
+    }
+
+    .menu-price{
+        font-size:22px;
+    }
+
+    .menu-description{
+        font-size:14px;
+    }
+
+    .menu-footer{
+        gap:6px;
+    }
+
+    .badge{
+        font-size:11px;
+        padding:6px 10px;
+    }
+
+}
+/* ===========================================================
+   ALLERGEN LIST
+=========================================================== */
+
+.allergen-list{
+
+    margin:8px 0 0;
+
+    padding-left:18px;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+    list-style:none;
+
+}
+
+.allergen-list li{
+
+    background:#f4f4f4;
+
+    padding:5px 10px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    color:#555;
+
+}

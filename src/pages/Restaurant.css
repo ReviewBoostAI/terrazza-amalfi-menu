@@ -1,0 +1,151 @@
+.restaurant-page{
+
+    min-height:100vh;
+
+    background:#f6f3ef;
+
+}
+
+
+/* ===========================
+HEADER
+=========================== */
+
+.restaurant-content{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    margin-top:-40px;
+
+    background:white;
+
+    border-top-left-radius:35px;
+
+    border-top-right-radius:35px;
+
+    padding:35px 22px 60px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+/* ===========================
+TABS
+=========================== */
+
+.tabs{
+
+    display:flex;
+
+    gap:12px;
+
+    overflow-x:auto;
+
+    padding-bottom:20px;
+
+    margin-bottom:25px;
+
+    scrollbar-width:none;
+
+}
+
+.tabs::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.tabs button{
+
+    border:none;
+
+    background:white;
+
+    padding:12px 22px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    white-space:nowrap;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:#666;
+
+    transition:.30s;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.05);
+
+}
+
+.tabs button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.tabs button.active{
+
+    background:#b88646;
+
+    color:white;
+
+    box-shadow:0 10px 25px rgba(184,134,70,.35);
+
+}
+
+
+/* ===========================
+LISTA
+=========================== */
+
+.menu-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+/* ===========================
+RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+    .restaurant-content{
+
+        padding:25px 15px 50px;
+
+        margin-top:-30px;
+
+        border-top-left-radius:25px;
+
+        border-top-right-radius:25px;
+
+    }
+
+    .tabs{
+
+        gap:8px;
+
+    }
+
+    .tabs button{
+
+        padding:10px 18px;
+
+        font-size:14px;
+
+    }
+
+}

@@ -1,0 +1,317 @@
+/* ===========================================================
+   TERRAZZA AMALFI
+   GLOBAL STYLES
+=========================================================== */
+
+:root{
+
+  --primary:#6B4A34;
+  --primary-light:#8B654A;
+  --secondary:#C9A46A;
+
+  --background:#F7F4EF;
+  --surface:#FFFFFF;
+
+  --text:#2E2E2E;
+  --text-light:#777777;
+
+  --border:#ECECEC;
+
+  --shadow:0 10px 30px rgba(0,0,0,.08);
+
+  --radius:22px;
+
+  --transition:.30s ease;
+
+}
+
+
+/* ===========================================================
+   RESET
+=========================================================== */
+
+*{
+
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+
+html{
+
+  scroll-behavior:smooth;
+
+}
+
+body{
+
+  font-family:"Poppins",sans-serif;
+
+  background:var(--background);
+
+  color:var(--text);
+
+  overflow-x:hidden;
+
+  -webkit-font-smoothing:antialiased;
+
+  -moz-osx-font-smoothing:grayscale;
+
+}
+
+#root{
+
+  min-height:100vh;
+
+}
+
+
+/* ===========================================================
+   TYPOGRAPHY
+=========================================================== */
+
+h1,h2,h3,h4,h5{
+
+  font-family:"Cormorant Garamond",serif;
+
+  font-weight:700;
+
+  color:var(--primary);
+
+}
+
+p{
+
+  color:var(--text-light);
+
+  line-height:1.6;
+
+}
+
+a{
+
+  text-decoration:none;
+
+  color:inherit;
+
+}
+
+button{
+
+  font-family:inherit;
+
+}
+
+
+/* ===========================================================
+   IMAGES
+=========================================================== */
+
+img{
+
+  display:block;
+
+  width:100%;
+
+}
+
+
+/* ===========================================================
+   BUTTONS
+=========================================================== */
+
+button{
+
+  border:none;
+
+  outline:none;
+
+  cursor:pointer;
+
+  transition:var(--transition);
+
+}
+
+button:hover{
+
+  transform:translateY(-2px);
+
+}
+
+button:active{
+
+  transform:scale(.97);
+
+}
+
+
+/* ===========================================================
+   INPUT
+=========================================================== */
+
+input{
+
+  font-family:inherit;
+
+  border:none;
+
+  outline:none;
+
+}
+
+
+/* ===========================================================
+   SCROLLBAR
+=========================================================== */
+
+::-webkit-scrollbar{
+
+  width:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+  background:#EFEAE3;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+  background:var(--primary);
+
+  border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+  background:var(--primary-light);
+
+}
+
+
+/* ===========================================================
+   SELECTION
+=========================================================== */
+
+::selection{
+
+  background:var(--primary);
+
+  color:white;
+
+}
+
+
+/* ===========================================================
+   CONTAINER
+=========================================================== */
+
+.container{
+
+  width:min(1200px,92%);
+
+  margin:auto;
+
+}
+
+
+/* ===========================================================
+   ANIMATIONS
+=========================================================== */
+
+.fade{
+
+  animation:fade .45s ease;
+
+}
+
+@keyframes fade{
+
+  from{
+
+      opacity:0;
+
+      transform:translateY(20px);
+
+  }
+
+  to{
+
+      opacity:1;
+
+      transform:translateY(0);
+
+  }
+
+}
+
+
+/* ===========================================================
+   CARD
+=========================================================== */
+
+.card{
+
+  background:white;
+
+  border-radius:var(--radius);
+
+  box-shadow:var(--shadow);
+
+}
+
+
+/* ===========================================================
+   GLASS EFFECT
+=========================================================== */
+
+.glass{
+
+  background:rgba(255,255,255,.15);
+
+  backdrop-filter:blur(18px);
+
+  -webkit-backdrop-filter:blur(18px);
+
+  border:1px solid rgba(255,255,255,.25);
+
+}
+
+
+/* ===========================================================
+   MOBILE
+=========================================================== */
+
+@media(max-width:768px){
+
+  h1{
+
+      font-size:48px;
+
+  }
+
+  h2{
+
+      font-size:36px;
+
+  }
+
+}
+
+
+/* ===========================================================
+   TABLET
+=========================================================== */
+
+@media(min-width:769px){
+
+  body{
+
+      zoom:1;
+
+  }
+
+}

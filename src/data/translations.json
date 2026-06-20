@@ -1,0 +1,251 @@
+{
+  "it": {
+    "home": {
+      "welcome": "Benvenuti",
+      "selectMenu": "Seleziona uno dei nostri menu",
+      "footer": "Ristorante • Pizzeria • Caffetteria • Cocktail Bar"
+    },
+
+    "categories": {
+      "restaurant": "Ristorante",
+      "pizza": "Pizzeria",
+      "cafe": "Caffetteria",
+      "cocktail": "Cocktail Bar"
+    },
+
+    "subtitles": {
+      "restaurant": "Cucina Mediterranea",
+      "pizza": "Pizze Tradizionali",
+      "cafe": "Colazioni e Bevande",
+      "cocktail": "Cocktail & Aperitivi"
+    },
+
+    "pages": {
+      "restaurant": "Ristorante",
+      "pizza": "Pizzeria",
+      "cafe": "Caffetteria",
+      "cocktail": "Cocktail Bar"
+    },
+
+    "buttons": {
+      "back": "Torna alla Home"
+    },
+
+    "messages": {
+      "noProducts": "Nessun prodotto disponibile.",
+      "noCocktails": "Nessun cocktail disponibile."
+    },
+
+    "badges": {
+      "vegetarian": "Vegetariano",
+      "vegan": "Vegano",
+      "spicy": "Piccante",
+      "featured": "Consigliato"
+    },
+
+    "labels": {
+      "allergens": "Allergeni",
+      "priceOnRequest": "Su richiesta"
+    },
+
+    "tabs": {
+      "restaurant": {
+        "antipasti": "Antipasti",
+        "zuppe": "Zuppe",
+        "primiTerra": "Primi Terra",
+        "primiMare": "Primi Mare",
+        "carne": "Carne",
+        "pesce": "Pesce",
+        "insalate": "Insalate",
+        "contorni": "Contorni",
+        "dessert": "Dessert"
+      },
+
+      "pizza": {
+        "classiche": "Classiche",
+        "speciali": "Speciali"
+      },
+
+      "cafe": {
+        "caffetteria": "Caffetteria",
+        "gelateria": "Gelateria",
+        "softDrink": "Bibite",
+        "birre": "Birre",
+        "cantina": "Vini",
+        "aperitivi": "Aperitivi",
+        "distillati": "Distillati"
+      },
+
+      "cocktail": {
+        "alcolici": "Alcolici",
+        "analcolici": "Analcolici"
+      }
+    }
+  },
+    "en": {
+    "home": {
+      "welcome": "Welcome",
+      "selectMenu": "Choose one of our menus",
+      "footer": "Restaurant • Pizzeria • Coffee Bar • Cocktail Bar"
+    },
+
+    "categories": {
+      "restaurant": "Restaurant",
+      "pizza": "Pizzeria",
+      "cafe": "Coffee Bar",
+      "cocktail": "Cocktail Bar"
+    },
+
+    "subtitles": {
+      "restaurant": "Mediterranean Cuisine",
+      "pizza": "Traditional Pizza",
+      "cafe": "Breakfast & Drinks",
+      "cocktail": "Cocktails & Aperitifs"
+    },
+
+    "pages": {
+      "restaurant": "Restaurant",
+      "pizza": "Pizzeria",
+      "cafe": "Coffee Bar",
+      "cocktail": "Cocktail Bar"
+    },
+
+    "buttons": {
+      "back": "Back to Home"
+    },
+
+    "messages": {
+      "noProducts": "No products available.",
+      "noCocktails": "No cocktails available."
+    },
+
+    "badges": {
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "spicy": "Spicy",
+      "featured": "Recommended"
+    },
+
+    "labels": {
+      "allergens": "Allergens",
+      "priceOnRequest": "Price on request"
+    },
+
+    "tabs": {
+      "restaurant": {
+        "antipasti": "Starters",
+        "zuppe": "Soups",
+        "primiTerra": "Meat First Courses",
+        "primiMare": "Seafood First Courses",
+        "carne": "Meat",
+        "pesce": "Fish",
+        "insalate": "Salads",
+        "contorni": "Side Dishes",
+        "dessert": "Desserts"
+      },
+
+      "pizza": {
+        "classiche": "Classic",
+        "speciali": "Special"
+      },
+
+      "cafe": {
+        "caffetteria": "Coffee",
+        "gelateria": "Ice Cream",
+        "softDrink": "Soft Drinks",
+        "birre": "Beers",
+        "cantina": "Wine",
+        "aperitivi": "Aperitifs",
+        "distillati": "Spirits"
+      },
+
+      "cocktail": {
+        "alcolici": "Alcoholic",
+        "analcolici": "Alcohol Free"
+      }
+    }
+  },
+    "de": {
+    "home": {
+      "welcome": "Willkommen",
+      "selectMenu": "Wählen Sie eines unserer Menüs",
+      "footer": "Restaurant • Pizzeria • Café • Cocktailbar"
+    },
+
+    "categories": {
+      "restaurant": "Restaurant",
+      "pizza": "Pizzeria",
+      "cafe": "Café",
+      "cocktail": "Cocktailbar"
+    },
+
+    "subtitles": {
+      "restaurant": "Mediterrane Küche",
+      "pizza": "Traditionelle Pizza",
+      "cafe": "Frühstück & Getränke",
+      "cocktail": "Cocktails & Aperitifs"
+    },
+
+    "pages": {
+      "restaurant": "Restaurant",
+      "pizza": "Pizzeria",
+      "cafe": "Café",
+      "cocktail": "Cocktailbar"
+    },
+
+    "buttons": {
+      "back": "Zur Startseite"
+    },
+
+    "messages": {
+      "noProducts": "Keine Produkte verfügbar.",
+      "noCocktails": "Keine Cocktails verfügbar."
+    },
+
+    "badges": {
+      "vegetarian": "Vegetarisch",
+      "vegan": "Vegan",
+      "spicy": "Scharf",
+      "featured": "Empfohlen"
+    },
+
+    "labels": {
+      "allergens": "Allergene",
+      "priceOnRequest": "Preis auf Anfrage"
+    },
+
+    "tabs": {
+      "restaurant": {
+        "antipasti": "Vorspeisen",
+        "zuppe": "Suppen",
+        "primiTerra": "Erste Gänge Fleisch",
+        "primiMare": "Erste Gänge Fisch",
+        "carne": "Fleisch",
+        "pesce": "Fisch",
+        "insalate": "Salate",
+        "contorni": "Beilagen",
+        "dessert": "Desserts"
+      },
+
+      "pizza": {
+        "classiche": "Klassisch",
+        "speciali": "Spezial"
+      },
+
+      "cafe": {
+        "caffetteria": "Kaffee",
+        "gelateria": "Eisdiele",
+        "softDrink": "Getränke",
+        "birre": "Biere",
+        "cantina": "Weine",
+        "aperitivi": "Aperitifs",
+        "distillati": "Spirituosen"
+      },
+
+      "cocktail": {
+        "alcolici": "Alkoholisch",
+        "analcolici": "Alkoholfrei"
+      }
+    }
+  }
+}

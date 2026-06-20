@@ -1,21 +1,38 @@
 :root{
 
---primary:#6F4E37;
+/* COLORI */
 
---secondary:#8A6742;
+--primary:#6B4A34;
+--primary-dark:#4B3425;
+--secondary:#A67C52;
+--gold:#D4AF37;
 
---accent:#D8B46A;
+--background:#F7F4EF;
+--surface:#FFFFFF;
 
---background:#F8F4EF;
+--text:#2D2D2D;
+--text-light:#777777;
 
---card:#FFFFFF;
+--border:#ECE8E3;
 
---text:#3C2F2F;
+/* SHADOW */
 
---shadow:0 12px 35px rgba(0,0,0,.12);
+--shadow-small:0 4px 12px rgba(0,0,0,.08);
+--shadow-medium:0 10px 30px rgba(0,0,0,.12);
+--shadow-large:0 20px 60px rgba(0,0,0,.18);
 
---radius:22px;
+/* BORDER */
 
---transition:.35s;
+--radius-small:10px;
+--radius:18px;
+--radius-large:30px;
+
+/* TRANSITIONS */
+
+--transition:.35s ease;
+
+/* WIDTH */
+
+--container:1200px;
 
 }

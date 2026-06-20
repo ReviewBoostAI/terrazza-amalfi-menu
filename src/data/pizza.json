@@ -1,0 +1,1332 @@
+ 
+    {
+        "classiche": [
+      {
+        "id": 100,
+        "name": {
+          "it": "Marinara",
+          "en": "Marinara",
+          "de": "Marinara"
+        },
+        "description": {
+          "it": "Pomodoro, aglio",
+          "en": "Tomato sauce, garlic",
+          "de": "Tomatensauce, Knoblauch"
+        },
+        "price": 6,
+        "allergens": [
+          1
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": true,
+        "spicy": false
+      },
+      {
+        "id": 101,
+        "name": {
+          "it": "Margherita",
+          "en": "Margherita",
+          "de": "Margherita"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella",
+          "en": "Tomato sauce, mozzarella",
+          "de": "Tomatensauce, Mozzarella"
+        },
+        "price": 7,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 102,
+        "name": {
+          "it": "Primavera",
+          "en": "Primavera",
+          "de": "Primavera"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, pomodorini",
+          "en": "Tomato sauce, mozzarella, cherry tomatoes",
+          "de": "Tomatensauce, Mozzarella, Kirschtomaten"
+        },
+        "price": 8.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 103,
+        "name": {
+          "it": "Romana",
+          "en": "Romana",
+          "de": "Romana"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, acciughe",
+          "en": "Tomato sauce, mozzarella, anchovies",
+          "de": "Tomatensauce, Mozzarella, Sardellen"
+        },
+        "price": 8.5,
+        "allergens": [
+          1,
+          4,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 104,
+        "name": {
+          "it": "Diavola",
+          "en": "Diavola",
+          "de": "Diavola"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, salamino piccante",
+          "en": "Tomato sauce, mozzarella, spicy salami",
+          "de": "Tomatensauce, Mozzarella, scharfe Salami"
+        },
+        "price": 8.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": true
+      },
+      {
+        "id": 105,
+        "name": {
+          "it": "Carciofi",
+          "en": "Artichokes",
+          "de": "Artischocken"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, carciofi",
+          "en": "Tomato sauce, mozzarella, artichokes",
+          "de": "Tomatensauce, Mozzarella, Artischocken"
+        },
+        "price": 8.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 106,
+        "name": {
+          "it": "Prosciutto",
+          "en": "Ham",
+          "de": "Schinken"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, prosciutto cotto",
+          "en": "Tomato sauce, mozzarella, ham",
+          "de": "Tomatensauce, Mozzarella, Schinken"
+        },
+        "price": 8.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 107,
+        "name": {
+          "it": "Pugliese",
+          "en": "Pugliese",
+          "de": "Pugliese"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, cipolla",
+          "en": "Tomato sauce, mozzarella, onion",
+          "de": "Tomatensauce, Mozzarella, Zwiebeln"
+        },
+        "price": 8,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 108,
+        "name": {
+          "it": "Viennese",
+          "en": "Viennese",
+          "de": "Viennese"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, würstel",
+          "en": "Tomato sauce, mozzarella, frankfurter",
+          "de": "Tomatensauce, Mozzarella, Würstel"
+        },
+        "price": 8.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 109,
+        "name": {
+          "it": "Bismarck",
+          "en": "Bismarck",
+          "de": "Bismarck"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, uovo, asparagi",
+          "en": "Tomato sauce, mozzarella, egg, asparagus",
+          "de": "Tomatensauce, Mozzarella, Ei, Spargel"
+        },
+        "price": 11,
+        "allergens": [
+          1,
+          3,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 110,
+        "name": {
+          "it": "Tonno e Cipolla",
+          "en": "Tuna and Onion",
+          "de": "Thunfisch und Zwiebeln"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, tonno, cipolla",
+          "en": "Tomato sauce, mozzarella, tuna, onion",
+          "de": "Tomatensauce, Mozzarella, Thunfisch, Zwiebeln"
+        },
+        "price": 9.5,
+        "allergens": [
+          1,
+          4,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 111,
+        "name": {
+          "it": "San Daniele",
+          "en": "San Daniele Ham",
+          "de": "San Daniele Schinken"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, prosciutto crudo San Daniele",
+          "en": "Tomato sauce, mozzarella, San Daniele ham",
+          "de": "Tomatensauce, Mozzarella, San Daniele Schinken"
+        },
+        "price": 10,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 112,
+        "name": {
+          "it": "Prosciutto e Funghi",
+          "en": "Ham and Mushrooms",
+          "de": "Schinken und Pilze"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, prosciutto cotto, funghi",
+          "en": "Tomato sauce, mozzarella, ham, mushrooms",
+          "de": "Tomatensauce, Mozzarella, Schinken, Pilze"
+        },
+        "price": 9.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 113,
+        "name": {
+          "it": "Funghi",
+          "en": "Mushroom",
+          "de": "Pilze"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, funghi",
+          "en": "Tomato sauce, mozzarella, mushrooms",
+          "de": "Tomatensauce, Mozzarella, Pilze"
+        },
+        "price": 8.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 114,
+        "name": {
+          "it": "Gorgonzola e Speck",
+          "en": "Gorgonzola and Speck",
+          "de": "Gorgonzola und Speck"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, gorgonzola, speck",
+          "en": "Tomato sauce, mozzarella, gorgonzola, speck",
+          "de": "Tomatensauce, Mozzarella, Gorgonzola, Speck"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 115,
+        "name": {
+          "it": "Zucchine e Gamberetti",
+          "en": "Zucchini and Shrimps",
+          "de": "Zucchini und Garnelen"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, zucchine, gamberetti",
+          "en": "Tomato sauce, mozzarella, zucchini, shrimps",
+          "de": "Tomatensauce, Mozzarella, Zucchini, Garnelen"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          2,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 116,
+        "name": {
+          "it": "Frutti di Mare",
+          "en": "Seafood",
+          "de": "Meeresfrüchte"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, frutti di mare",
+          "en": "Tomato sauce, mozzarella, seafood",
+          "de": "Tomatensauce, Mozzarella, Meeresfrüchte"
+        },
+        "price": 15,
+        "allergens": [
+          1,
+          2,
+          4,
+          7,
+          14
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 117,
+        "name": {
+          "it": "Brie e Speck",
+          "en": "Brie and Speck",
+          "de": "Brie und Speck"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, brie, speck",
+          "en": "Tomato sauce, mozzarella, brie cheese, speck",
+          "de": "Tomatensauce, Mozzarella, Brie, Speck"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 118,
+        "name": {
+          "it": "Brie e Zucchine",
+          "en": "Brie and Zucchini",
+          "de": "Brie und Zucchini"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, brie, zucchine",
+          "en": "Tomato sauce, mozzarella, brie cheese, zucchini",
+          "de": "Tomatensauce, Mozzarella, Brie, Zucchini"
+        },
+        "price": 11,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 119,
+        "name": {
+          "it": "Quattro Stagioni",
+          "en": "Four Seasons",
+          "de": "Vier Jahreszeiten"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, prosciutto, salamino piccante, carciofi, funghi",
+          "en": "Tomato sauce, mozzarella, ham, spicy salami, artichokes, mushrooms",
+          "de": "Tomatensauce, Mozzarella, Schinken, Salami, Artischocken, Pilze"
+        },
+        "price": 11,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": true
+      },
+      {
+        "id": 120,
+        "name": {
+          "it": "Capricciosa",
+          "en": "Capricciosa",
+          "de": "Capricciosa"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, funghi, carciofi, prosciutto",
+          "en": "Tomato sauce, mozzarella, mushrooms, artichokes, ham",
+          "de": "Tomatensauce, Mozzarella, Pilze, Artischocken, Schinken"
+        },
+        "price": 10.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 121,
+        "name": {
+          "it": "Melanzane e Brie",
+          "en": "Eggplant and Brie",
+          "de": "Auberginen und Brie"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, melanzane, brie",
+          "en": "Tomato sauce, mozzarella, eggplant, brie cheese",
+          "de": "Tomatensauce, Mozzarella, Auberginen, Brie"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 122,
+        "name": {
+          "it": "Parmigiana",
+          "en": "Parmigiana",
+          "de": "Parmigiana"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, melanzane, parmigiano",
+          "en": "Tomato sauce, mozzarella, eggplant, parmesan",
+          "de": "Tomatensauce, Mozzarella, Auberginen, Parmesan"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 123,
+        "name": {
+          "it": "Verdure Grigliate",
+          "en": "Grilled Vegetables",
+          "de": "Gegrilltes Gemüse"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, verdure grigliate",
+          "en": "Tomato sauce, mozzarella, grilled vegetables",
+          "de": "Tomatensauce, Mozzarella, Grillgemüse"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 124,
+        "name": {
+          "it": "Contadina",
+          "en": "Contadina",
+          "de": "Contadina"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, pomodori secchi, olive taggiasche",
+          "en": "Tomato sauce, mozzarella, dried tomatoes, Taggiasca olives",
+          "de": "Tomatensauce, Mozzarella, getrocknete Tomaten, Taggiasca-Oliven"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 125,
+        "name": {
+          "it": "Pancetta e Carciofi",
+          "en": "Bacon and Artichokes",
+          "de": "Speck und Artischocken"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, pancetta, carciofi",
+          "en": "Tomato sauce, mozzarella, bacon, artichokes",
+          "de": "Tomatensauce, Mozzarella, Speck, Artischocken"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 126,
+        "name": {
+          "it": "Bresaola, Rucola e Grana",
+          "en": "Bresaola, Rocket and Parmesan",
+          "de": "Bresaola, Rucola und Parmesan"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, bresaola, rucola, grana",
+          "en": "Tomato sauce, mozzarella, bresaola, rocket, parmesan",
+          "de": "Tomatensauce, Mozzarella, Bresaola, Rucola, Parmesan"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 127,
+        "name": {
+          "it": "Mari e Monti",
+          "en": "Sea and Mountains",
+          "de": "Meer und Berge"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, gamberetti, funghi",
+          "en": "Tomato sauce, mozzarella, shrimps, mushrooms",
+          "de": "Tomatensauce, Mozzarella, Garnelen, Pilze"
+        },
+        "price": 12.5,
+        "allergens": [
+          1,
+          2,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 128,
+        "name": {
+          "it": "Simpatica",
+          "en": "Simpatica",
+          "de": "Simpatica"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, patatine fritte",
+          "en": "Tomato sauce, mozzarella, french fries",
+          "de": "Tomatensauce, Mozzarella, Pommes"
+        },
+        "price": 10,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 129,
+        "name": {
+          "it": "Reginella",
+          "en": "Reginella",
+          "de": "Reginella"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella di bufala, basilico",
+          "en": "Tomato sauce, buffalo mozzarella, basil",
+          "de": "Tomatensauce, Büffelmozzarella, Basilikum"
+        },
+        "price": 11.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 130,
+        "name": {
+          "it": "Calzone",
+          "en": "Calzone",
+          "de": "Calzone"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, prosciutto cotto, funghi",
+          "en": "Tomato sauce, mozzarella, ham, mushrooms",
+          "de": "Tomatensauce, Mozzarella, Schinken, Pilze"
+        },
+        "price": 11,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 131,
+        "name": {
+          "it": "Vesuvio",
+          "en": "Vesuvio",
+          "de": "Vesuvio"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, salamino piccante, peperoni, cipolla",
+          "en": "Tomato sauce, mozzarella, spicy salami, peppers, onion",
+          "de": "Tomatensauce, Mozzarella, scharfe Salami, Paprika, Zwiebeln"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": true
+      },
+      {
+        "id": 132,
+        "name": {
+          "it": "Tirolese",
+          "en": "Tyrolean",
+          "de": "Tiroler"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, speck",
+          "en": "Tomato sauce, mozzarella, speck",
+          "de": "Tomatensauce, Mozzarella, Speck"
+        },
+        "price": 10,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 133,
+        "name": {
+          "it": "Salsiccia e Chiodini",
+          "en": "Sausage and Mushrooms",
+          "de": "Wurst und Pilze"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, salsiccia, funghi chiodini",
+          "en": "Tomato sauce, mozzarella, sausage, mushrooms",
+          "de": "Tomatensauce, Mozzarella, Wurst, Pilze"
+        },
+        "price": 12.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 134,
+        "name": {
+          "it": "Hawaii",
+          "en": "Hawaii",
+          "de": "Hawaii"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, prosciutto, ananas",
+          "en": "Tomato sauce, mozzarella, ham, pineapple",
+          "de": "Tomatensauce, Mozzarella, Schinken, Ananas"
+        },
+        "price": 10,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 135,
+        "name": {
+          "it": "Spinaci e Ricotta",
+          "en": "Spinach and Ricotta",
+          "de": "Spinat und Ricotta"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, spinaci, ricotta, parmigiano",
+          "en": "Tomato sauce, mozzarella, spinach, ricotta, parmesan",
+          "de": "Tomatensauce, Mozzarella, Spinat, Ricotta, Parmesan"
+        },
+        "price": 11.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 136,
+        "name": {
+          "it": "Calamari",
+          "en": "Calamari",
+          "de": "Calamari"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, calamari fritti",
+          "en": "Tomato sauce, mozzarella, fried squid",
+          "de": "Tomatensauce, Mozzarella, frittierte Calamari"
+        },
+        "price": 14,
+        "allergens": [
+          1,
+          7,
+          14
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 137,
+        "name": {
+          "it": "Quattro Formaggi",
+          "en": "Four Cheeses",
+          "de": "Vier Käsesorten"
+        },
+        "description": {
+          "it": "Pomodoro, mozzarella, formaggi misti",
+          "en": "Tomato sauce, mozzarella, mixed cheeses",
+          "de": "Tomatensauce, Mozzarella, Vier Käsesorten"
+        },
+        "price": 11,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      }
+    ],
+    "speciali": [
+      {
+        "id": 200,
+        "name": {
+          "it": "Cornetto 1",
+          "en": "Cornetto 1",
+          "de": "Cornetto 1"
+        },
+        "description": {
+          "it": "Mozzarella, verdure grigliate, speck",
+          "en": "Mozzarella, grilled vegetables, speck",
+          "de": "Mozzarella, Grillgemüse, Speck"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 201,
+        "name": {
+          "it": "Cornetto 2",
+          "en": "Cornetto 2",
+          "de": "Cornetto 2"
+        },
+        "description": {
+          "it": "Mozzarella, ricotta, spinaci, grana",
+          "en": "Mozzarella, ricotta, spinach, parmesan",
+          "de": "Mozzarella, Ricotta, Spinat, Parmesan"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 202,
+        "name": {
+          "it": "Arrotolata Number 1",
+          "en": "Rolled Pizza No.1",
+          "de": "Gerollte Pizza Nr.1"
+        },
+        "description": {
+          "it": "Mozzarella, pomodorini, rucola, prosciutto crudo",
+          "en": "Mozzarella, cherry tomatoes, rocket, Parma ham",
+          "de": "Mozzarella, Kirschtomaten, Rucola, Parmaschinken"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 203,
+        "name": {
+          "it": "Arrotolata Number 2",
+          "en": "Rolled Pizza No.2",
+          "de": "Gerollte Pizza Nr.2"
+        },
+        "description": {
+          "it": "Mozzarella, Asiago, speck, funghi chiodini",
+          "en": "Mozzarella, Asiago cheese, speck, mushrooms",
+          "de": "Mozzarella, Asiago, Speck, Pilze"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 204,
+        "name": {
+          "it": "Biancaneve",
+          "en": "Snow White",
+          "de": "Schneewittchen"
+        },
+        "description": {
+          "it": "Quattro formaggi, olive nere",
+          "en": "Four cheeses, black olives",
+          "de": "Vier Käsesorten, schwarze Oliven"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 205,
+        "name": {
+          "it": "Bianca e Bernie",
+          "en": "Bianca & Bernie",
+          "de": "Bianca & Bernie"
+        },
+        "description": {
+          "it": "Mozzarella, noci, speck, Philadelphia",
+          "en": "Mozzarella, walnuts, speck, Philadelphia cheese",
+          "de": "Mozzarella, Walnüsse, Speck, Philadelphia"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7,
+          8
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 206,
+        "name": {
+          "it": "Salmone e Philadelphia",
+          "en": "Salmon and Philadelphia",
+          "de": "Lachs und Philadelphia"
+        },
+        "description": {
+          "it": "Mozzarella, salmone affumicato, Philadelphia",
+          "en": "Mozzarella, smoked salmon, Philadelphia",
+          "de": "Mozzarella, Räucherlachs, Philadelphia"
+        },
+        "price": 14,
+        "allergens": [
+          1,
+          4,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 207,
+        "name": {
+          "it": "Rustica",
+          "en": "Rustica",
+          "de": "Rustica"
+        },
+        "description": {
+          "it": "Mozzarella, patate al forno, pancetta, pomodori secchi",
+          "en": "Mozzarella, baked potatoes, bacon, dried tomatoes",
+          "de": "Mozzarella, Ofenkartoffeln, Speck, getrocknete Tomaten"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 208,
+        "name": {
+          "it": "Leo",
+          "en": "Leo",
+          "de": "Leo"
+        },
+        "description": {
+          "it": "Mozzarella, pomodorini, pesto, burrata, basilico",
+          "en": "Mozzarella, cherry tomatoes, pesto, burrata, basil",
+          "de": "Mozzarella, Kirschtomaten, Pesto, Burrata, Basilikum"
+        },
+        "price": 15,
+        "allergens": [
+          1,
+          7,
+          8
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 209,
+        "name": {
+          "it": "Porcona",
+          "en": "Porcona",
+          "de": "Porcona"
+        },
+        "description": {
+          "it": "Mozzarella, salsiccia, würstel, salamino, prosciutto cotto, pancetta",
+          "en": "Mozzarella, sausage, frankfurter, spicy salami, ham, bacon",
+          "de": "Mozzarella, Wurst, Würstel, Salami, Schinken, Speck"
+        },
+        "price": 13.5,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": true
+      },
+      {
+        "id": 210,
+        "name": {
+          "it": "Del Pizzaiolo",
+          "en": "Pizza Chef's Choice",
+          "de": "Pizza des Pizzabäckers"
+        },
+        "description": {
+          "it": "Ingredienti a sorpresa",
+          "en": "Surprise ingredients",
+          "de": "Überraschungszutaten"
+        },
+        "price": 15,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 211,
+        "name": {
+          "it": "Amalfi",
+          "en": "Amalfi",
+          "de": "Amalfi"
+        },
+        "description": {
+          "it": "Mozzarella, pomodorini, patate al forno, speck",
+          "en": "Mozzarella, cherry tomatoes, baked potatoes, speck",
+          "de": "Mozzarella, Kirschtomaten, Ofenkartoffeln, Speck"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 212,
+        "name": {
+          "it": "Gigi",
+          "en": "Gigi",
+          "de": "Gigi"
+        },
+        "description": {
+          "it": "Mozzarella, pomodorini, burrata, rucola, prosciutto crudo",
+          "en": "Mozzarella, cherry tomatoes, burrata, rocket, Parma ham",
+          "de": "Mozzarella, Kirschtomaten, Burrata, Rucola, Parmaschinken"
+        },
+        "price": 15,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 300,
+        "name": {
+          "it": "Biancaneve",
+          "en": "Snow White",
+          "de": "Schneewittchen"
+        },
+        "description": {
+          "it": "Mozzarella, quattro formaggi, olive nere",
+          "en": "Mozzarella, four cheeses, black olives",
+          "de": "Mozzarella, vier Käsesorten, schwarze Oliven"
+        },
+        "price": 12,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 301,
+        "name": {
+          "it": "Bianca e Bernie",
+          "en": "Bianca & Bernie",
+          "de": "Bianca & Bernie"
+        },
+        "description": {
+          "it": "Mozzarella, noci, speck, Philadelphia",
+          "en": "Mozzarella, walnuts, speck, Philadelphia",
+          "de": "Mozzarella, Walnüsse, Speck, Philadelphia"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7,
+          8
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 302,
+        "name": {
+          "it": "Salmone e Philadelphia",
+          "en": "Salmon and Philadelphia",
+          "de": "Lachs und Philadelphia"
+        },
+        "description": {
+          "it": "Mozzarella, salmone affumicato, Philadelphia",
+          "en": "Mozzarella, smoked salmon, Philadelphia",
+          "de": "Mozzarella, Räucherlachs, Philadelphia"
+        },
+        "price": 14,
+        "allergens": [
+          1,
+          4,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 303,
+        "name": {
+          "it": "Rustica",
+          "en": "Rustica",
+          "de": "Rustica"
+        },
+        "description": {
+          "it": "Mozzarella, patate al forno, pancetta, pomodori secchi",
+          "en": "Mozzarella, baked potatoes, bacon, dried tomatoes",
+          "de": "Mozzarella, Ofenkartoffeln, Speck, getrocknete Tomaten"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": false,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 304,
+        "name": {
+          "it": "Leo",
+          "en": "Leo",
+          "de": "Leo"
+        },
+        "description": {
+          "it": "Mozzarella, pomodorini, pesto, burrata, basilico",
+          "en": "Mozzarella, cherry tomatoes, pesto, burrata, basil",
+          "de": "Mozzarella, Kirschtomaten, Pesto, Burrata, Basilikum"
+        },
+        "price": 15,
+        "allergens": [
+          1,
+          7,
+          8
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": true,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 305,
+        "name": {
+          "it": "Amalfi Bianca",
+          "en": "Amalfi White",
+          "de": "Amalfi Weiß"
+        },
+        "description": {
+          "it": "Mozzarella, pomodorini, patate al forno, speck",
+          "en": "Mozzarella, cherry tomatoes, baked potatoes, speck",
+          "de": "Mozzarella, Kirschtomaten, Ofenkartoffeln, Speck"
+        },
+        "price": 13,
+        "allergens": [
+          1,
+          7
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      }
+    ]
+  }

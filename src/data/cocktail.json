@@ -1,0 +1,532 @@
+
+    {
+        "alcolici": [
+      {
+        "id": 1100,
+        "name": {
+          "it": "Black Russian",
+          "en": "Black Russian",
+          "de": "Black Russian"
+        },
+        "description": {
+          "it": "Vodka, liquore al caffè",
+          "en": "Vodka, coffee liqueur",
+          "de": "Wodka, Kaffeelikör"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1101,
+        "name": {
+          "it": "Gin Fizz",
+          "en": "Gin Fizz",
+          "de": "Gin Fizz"
+        },
+        "description": {
+          "it": "Gin, limone, zucchero, soda",
+          "en": "Gin, lemon, sugar syrup, soda",
+          "de": "Gin, Zitrone, Zuckersirup, Soda"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1102,
+        "name": {
+          "it": "God Mother",
+          "en": "God Mother",
+          "de": "God Mother"
+        },
+        "description": {
+          "it": "Amaretto e vodka",
+          "en": "Amaretto and vodka",
+          "de": "Amaretto und Wodka"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1103,
+        "name": {
+          "it": "Manhattan",
+          "en": "Manhattan",
+          "de": "Manhattan"
+        },
+        "description": {
+          "it": "Rye whisky e vermouth rosso",
+          "en": "Rye whisky and red vermouth",
+          "de": "Rye Whisky und roter Wermut"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1104,
+        "name": {
+          "it": "Margarita",
+          "en": "Margarita",
+          "de": "Margarita"
+        },
+        "description": {
+          "it": "Tequila, Cointreau, lime",
+          "en": "Tequila, Cointreau, lime",
+          "de": "Tequila, Cointreau, Limette"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1105,
+        "name": {
+          "it": "Negroni",
+          "en": "Negroni",
+          "de": "Negroni"
+        },
+        "description": {
+          "it": "Gin, Campari, Vermouth Rosso",
+          "en": "Gin, Campari, Red Vermouth",
+          "de": "Gin, Campari, Roter Wermut"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1106,
+        "name": {
+          "it": "White Russian",
+          "en": "White Russian",
+          "de": "White Russian"
+        },
+        "description": {
+          "it": "Vodka, liquore al caffè, panna",
+          "en": "Vodka, coffee liqueur, cream",
+          "de": "Wodka, Kaffeelikör, Sahne"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1107,
+        "name": {
+          "it": "Whiskey Sour",
+          "en": "Whiskey Sour",
+          "de": "Whiskey Sour"
+        },
+        "description": {
+          "it": "Bourbon, limone, zucchero",
+          "en": "Bourbon, lemon, sugar",
+          "de": "Bourbon, Zitrone, Zucker"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1108,
+        "name": {
+          "it": "Kir Royal",
+          "en": "Kir Royal",
+          "de": "Kir Royal"
+        },
+        "description": {
+          "it": "Crème de Cassis e Prosecco",
+          "en": "Crème de Cassis and Prosecco",
+          "de": "Crème de Cassis und Prosecco"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1109,
+        "name": {
+          "it": "Sex on the Beach",
+          "en": "Sex on the Beach",
+          "de": "Sex on the Beach"
+        },
+        "description": {
+          "it": "Vodka, pesca, arancia, cranberry",
+          "en": "Vodka, peach, orange, cranberry",
+          "de": "Wodka, Pfirsich, Orange, Cranberry"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1110,
+        "name": {
+          "it": "Mai Tai",
+          "en": "Mai Tai",
+          "de": "Mai Tai"
+        },
+        "description": {
+          "it": "Rum chiaro e scuro, Curaçao, orzata, lime",
+          "en": "White & dark rum, Curaçao, orgeat, lime",
+          "de": "Heller und dunkler Rum, Curaçao, Orgeat, Limette"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1111,
+        "name": {
+          "it": "Pesca Lemon",
+          "en": "Peach Lemon",
+          "de": "Pfirsich Lemon"
+        },
+        "description": {
+          "it": "Vodka pesca e Lemonsoda",
+          "en": "Peach vodka and Lemonsoda",
+          "de": "Pfirsich-Wodka und Lemonsoda"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1112,
+        "name": {
+          "it": "Mixed Long Drinks",
+          "en": "Mixed Long Drinks",
+          "de": "Long Drinks"
+        },
+        "description": {
+          "it": "Gin Tonic, Malibu Orange, Whiskey Cola, Campari Orange...",
+          "en": "Gin Tonic, Malibu Orange, Whiskey Cola, Campari Orange...",
+          "de": "Gin Tonic, Malibu Orange, Whiskey Cola, Campari Orange..."
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1113,
+        "name": {
+          "it": "Swimming Pool",
+          "en": "Swimming Pool",
+          "de": "Swimming Pool"
+        },
+        "description": {
+          "it": "Ananas, rum, vodka, cocco, blue curaçao",
+          "en": "Pineapple, rum, vodka, coconut, blue curaçao",
+          "de": "Ananas, Rum, Wodka, Kokos, Blue Curaçao"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1114,
+        "name": {
+          "it": "Alaska Iced Tea",
+          "en": "Alaska Iced Tea",
+          "de": "Alaska Iced Tea"
+        },
+        "description": {
+          "it": "Vodka, Blue Curaçao, tonica, granatina",
+          "en": "Vodka, Blue Curaçao, tonic, grenadine",
+          "de": "Wodka, Blue Curaçao, Tonic, Grenadine"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1115,
+        "name": {
+          "it": "Blue Lagoon",
+          "en": "Blue Lagoon",
+          "de": "Blue Lagoon"
+        },
+        "description": {
+          "it": "Vodka, Blue Curaçao, limone",
+          "en": "Vodka, Blue Curaçao, lemon",
+          "de": "Wodka, Blue Curaçao, Zitrone"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1116,
+        "name": {
+          "it": "Tequila Sunrise",
+          "en": "Tequila Sunrise",
+          "de": "Tequila Sunrise"
+        },
+        "description": {
+          "it": "Tequila, succo d'arancia, granatina",
+          "en": "Tequila, orange juice, grenadine",
+          "de": "Tequila, Orangensaft, Grenadine"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1117,
+        "name": {
+          "it": "Piña Colada",
+          "en": "Piña Colada",
+          "de": "Piña Colada"
+        },
+        "description": {
+          "it": "Rum, cocco, ananas",
+          "en": "Rum, coconut, pineapple",
+          "de": "Rum, Kokos, Ananas"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1118,
+        "name": {
+          "it": "Orgasmo Multiplo",
+          "en": "Multiple Orgasm",
+          "de": "Multiple Orgasm"
+        },
+        "description": {
+          "it": "Pera, ananas, vodka pesca, fragola",
+          "en": "Pear, pineapple, peach vodka, strawberry",
+          "de": "Birne, Ananas, Pfirsich-Wodka, Erdbeere"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1119,
+        "name": {
+          "it": "Long Island Iced Tea",
+          "en": "Long Island Iced Tea",
+          "de": "Long Island Iced Tea"
+        },
+        "description": {
+          "it": "Vodka, rum, gin, cola, limone",
+          "en": "Vodka, rum, gin, cola, lemon",
+          "de": "Wodka, Rum, Gin, Cola, Zitrone"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1120,
+        "name": {
+          "it": "Oceanic",
+          "en": "Oceanic",
+          "de": "Oceanic"
+        },
+        "description": {
+          "it": "Succo mela, vodka melone, lampone",
+          "en": "Apple juice, melon vodka, raspberry",
+          "de": "Apfelsaft, Melonen-Wodka, Himbeere"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1121,
+        "name": {
+          "it": "Cuba Libre",
+          "en": "Cuba Libre",
+          "de": "Cuba Libre"
+        },
+        "description": {
+          "it": "Rum, cola, lime",
+          "en": "Rum, cola, lime",
+          "de": "Rum, Cola, Limette"
+        },
+        "price": 8,
+        "available": true
+      },
+      {
+        "id": 1122,
+        "name": {
+          "it": "Mojito",
+          "en": "Mojito",
+          "de": "Mojito"
+        },
+        "description": {
+          "it": "Rum bianco, lime, menta, zucchero",
+          "en": "White rum, lime, mint, sugar",
+          "de": "Weißer Rum, Limette, Minze, Zucker"
+        },
+        "price": 8.5,
+        "available": true
+      },
+      {
+        "id": 1123,
+        "name": {
+          "it": "Caipirinha",
+          "en": "Caipirinha",
+          "de": "Caipirinha"
+        },
+        "description": {
+          "it": "Cachaça, lime, zucchero",
+          "en": "Cachaça, lime, sugar",
+          "de": "Cachaça, Limette, Zucker"
+        },
+        "price": 8.5,
+        "available": true
+      },
+      {
+        "id": 1124,
+        "name": {
+          "it": "Strawberry Daiquiri",
+          "en": "Strawberry Daiquiri",
+          "de": "Strawberry Daiquiri"
+        },
+        "description": {
+          "it": "Rum, fragole, lime",
+          "en": "Rum, strawberries, lime",
+          "de": "Rum, Erdbeeren, Limette"
+        },
+        "price": 8.5,
+        "available": true
+      },
+      {
+        "id": 1125,
+        "name": {
+          "it": "Midori Sour",
+          "en": "Midori Sour",
+          "de": "Midori Sour"
+        },
+        "description": {
+          "it": "Midori, sweet & sour, limone, soda",
+          "en": "Midori, sweet & sour, lemon, soda",
+          "de": "Midori, Sweet & Sour, Zitrone, Soda"
+        },
+        "price": 8.5,
+        "available": true
+      },
+      {
+        "id": 1126,
+        "name": {
+          "it": "Besito",
+          "en": "Besito",
+          "de": "Besito"
+        },
+        "description": {
+          "it": "Coconut Mojito",
+          "en": "Coconut Mojito",
+          "de": "Kokos Mojito"
+        },
+        "price": 8.5,
+        "available": true
+      },
+      {
+        "id": 1127,
+        "name": {
+          "it": "Strawberry Caipiroska",
+          "en": "Strawberry Caipiroska",
+          "de": "Strawberry Caipiroska"
+        },
+        "description": {
+          "it": "Vodka, fragole, lime, zucchero",
+          "en": "Vodka, strawberries, lime, sugar",
+          "de": "Wodka, Erdbeeren, Limette, Zucker"
+        },
+        "price": 8.5,
+        "available": true
+      },
+      {
+        "id": 1128,
+        "name": {
+          "it": "Heaven",
+          "en": "Heaven",
+          "de": "Heaven"
+        },
+        "description": {
+          "it": "Vodka, Pernod, granatina, soda",
+          "en": "Vodka, Pernod, grenadine, soda",
+          "de": "Wodka, Pernod, Grenadine, Soda"
+        },
+        "price": 8.5,
+        "available": true
+      }
+    ],
+    "analcolici": [
+      {
+        "id": 1200,
+        "name": {
+          "it": "Florida",
+          "en": "Florida",
+          "de": "Florida"
+        },
+        "description": {
+          "it": "Succo arancia, pompelmo, granatina",
+          "en": "Orange juice, grapefruit, grenadine",
+          "de": "Orangensaft, Grapefruit, Grenadine"
+        },
+        "price": 6.5,
+        "available": true
+      },
+      {
+        "id": 1201,
+        "name": {
+          "it": "Virgin Mojito",
+          "en": "Virgin Mojito",
+          "de": "Virgin Mojito"
+        },
+        "description": {
+          "it": "Menta, lime, soda",
+          "en": "Mint, lime, soda",
+          "de": "Minze, Limette, Soda"
+        },
+        "price": 7,
+        "available": true
+      },
+      {
+        "id": 1202,
+        "name": {
+          "it": "Strawberry Mo-Caipi",
+          "en": "Strawberry Mo-Caipi",
+          "de": "Strawberry Mo-Caipi"
+        },
+        "description": {
+          "it": "Mela, fragole, lime",
+          "en": "Apple, strawberries, lime",
+          "de": "Apfel, Erdbeeren, Limette"
+        },
+        "price": 7,
+        "available": true
+      },
+      {
+        "id": 1203,
+        "name": {
+          "it": "California",
+          "en": "California",
+          "de": "California"
+        },
+        "description": {
+          "it": "Arancia, ananas, fragola, limone",
+          "en": "Orange, pineapple, strawberry, lemon",
+          "de": "Orange, Ananas, Erdbeere, Zitrone"
+        },
+        "price": 6.5,
+        "available": true
+      },
+      {
+        "id": 1204,
+        "name": {
+          "it": "Virgin Colada",
+          "en": "Virgin Colada",
+          "de": "Virgin Colada"
+        },
+        "description": {
+          "it": "Ananas e cocco",
+          "en": "Pineapple and coconut",
+          "de": "Ananas und Kokos"
+        },
+        "price": 6.5,
+        "available": true
+      },
+      {
+        "id": 1205,
+        "name": {
+          "it": "Primo Bacio",
+          "en": "First Kiss",
+          "de": "Erster Kuss"
+        },
+        "description": {
+          "it": "Mela, arancia, banana e blue curaçao analcolico",
+          "en": "Apple, orange, banana and non-alcoholic blue curaçao",
+          "de": "Apfel, Orange, Banane und alkoholfreier Blue Curaçao"
+        },
+        "price": 6.5,
+        "available": true
+      }
+    ]
+    }

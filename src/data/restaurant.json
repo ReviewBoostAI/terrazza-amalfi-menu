@@ -1,0 +1,1319 @@
+
+        {
+            "antipasti": [
+            {
+                "id": 1,
+                "name": {
+                    "it": "Prosciutto e Melone",
+                    "en": "Parma Ham and Melon",
+                    "de": "Rohschinken und Melone"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 12.5,
+                "allergens": [
+                    3,
+                    11
+                ],
+                "available": true
+            },
+            {
+                "id": 2,
+                "name": {
+                    "it": "Tagliere Veneto",
+                    "en": "Local Mixed Cold Cuts",
+                    "de": "Venetischer Aufschnitt"
+                },
+                "description": {
+                    "it": "Salumi, formaggi e sottaceti",
+                    "en": "Cold cuts, cheeses and pickles",
+                    "de": "Aufschnitt, Käse und Essiggurken"
+                },
+                "price": 16,
+                "allergens": [
+                    3,
+                    9
+                ],
+                "available": true
+            },
+            {
+                "id": 3,
+                "name": {
+                    "it": "Cozze alla Marinara",
+                    "en": "Mussels Marinara",
+                    "de": "Muscheln Marinara"
+                },
+                "description": {
+                    "it": "Con vino bianco e aglio",
+                    "en": "White wine and garlic",
+                    "de": "Mit Weißwein und Knoblauch"
+                },
+                "price": 13.5,
+                "allergens": [
+                    5
+                ],
+                "available": true
+            },
+            {
+                "id": 4,
+                "name": {
+                    "it": "Cocktail di Gamberetti",
+                    "en": "Shrimp Cocktail",
+                    "de": "Garnelencocktail"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 9,
+                "allergens": [
+                    2,
+                    3
+                ],
+                "available": true
+            },
+            {
+                "id": 5,
+                "name": {
+                    "it": "Crudo e Burrata",
+                    "en": "Parma Ham and Burrata",
+                    "de": "Parmaschinken und Burrata"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 15,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 6,
+                "name": {
+                    "it": "Caprese",
+                    "en": "Caprese",
+                    "de": "Caprese"
+                },
+                "description": {
+                    "it": "Pomodoro e mozzarella",
+                    "en": "Tomato and mozzarella",
+                    "de": "Tomaten und Mozzarella"
+                },
+                "price": 9,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 7,
+                "name": {
+                    "it": "Insalata di Mare",
+                    "en": "Seafood Salad",
+                    "de": "Meeresfrüchtesalat"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 15,
+                "allergens": [
+                    2,
+                    5,
+                    14
+                ],
+                "available": true
+            },
+            {
+                "id": 8,
+                "name": {
+                    "it": "Cozze e Vongole",
+                    "en": "Mussels and Clams",
+                    "de": "Muscheln und Venusmuscheln"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 18,
+                "allergens": [
+                    5
+                ],
+                "available": true
+            },
+            {
+                "id": 9,
+                "name": {
+                    "it": "Bruschetta",
+                    "en": "Bruschetta",
+                    "de": "Bruschetta"
+                },
+                "description": {
+                    "it": "Pane tostato con pomodoro",
+                    "en": "Toasted bread with tomatoes",
+                    "de": "Geröstetes Brot mit Tomaten"
+                },
+                "price": 6,
+                "allergens": [
+                    1
+                ],
+                "available": true
+            },
+            {
+                "id": 10,
+                "name": {
+                    "it": "Antipasto Misto dell'Adriatico",
+                    "en": "Adriatic Fish Starter",
+                    "de": "Adria Fischvorspeise"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 25,
+                "allergens": [
+                    2,
+                    4,
+                    5,
+                    14
+                ],
+                "available": true
+            }
+        ],
+        "zuppe": [
+            {
+                "id": 11,
+                "name": {
+                    "it": "Crema di Asparagi",
+                    "en": "Cream of Asparagus",
+                    "de": "Spargelcremesuppe"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 6.5,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 12,
+                "name": {
+                    "it": "Crema di Funghi",
+                    "en": "Cream of Mushrooms",
+                    "de": "Pilzcremesuppe"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 6.5,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 13,
+                "name": {
+                    "it": "Minestrone",
+                    "en": "Vegetable Soup",
+                    "de": "Gemüsesuppe"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 8,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 14,
+                "name": {
+                    "it": "Zuppa del Giorno",
+                    "en": "Soup of the Day",
+                    "de": "Tagessuppe"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 7.5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 15,
+                "name": {
+                    "it": "Zuppa al Pomodoro",
+                    "en": "Tomato Soup",
+                    "de": "Tomatensuppe"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 6.5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 16,
+                "name": {
+                    "it": "Zuppa di Pesce",
+                    "en": "Fish Soup",
+                    "de": "Fischsuppe"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 23,
+                "allergens": [
+                    2,
+                    4,
+                    5,
+                    14
+                ],
+                "available": true
+            }
+        ],
+        "primiTerra": [
+            {
+                "id": 17,
+                "name": {
+                    "it": "Spaghetti alla Bolognese",
+                    "en": "Spaghetti Bolognese",
+                    "de": "Spaghetti Bolognese"
+                },
+                "description": {
+                    "it": "Ragù di carne",
+                    "en": "Meat sauce",
+                    "de": "Fleischsauce"
+                },
+                "price": 10,
+                "allergens": [
+                    1,
+                    3,
+                    9
+                ],
+                "available": true
+            },
+            {
+                "id": 18,
+                "name": {
+                    "it": "Pasta al Pomodoro",
+                    "en": "Pasta with Tomato Sauce",
+                    "de": "Pasta mit Tomatensauce"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 8.5,
+                "allergens": [
+                    1
+                ],
+                "available": true
+            },
+            {
+                "id": 19,
+                "name": {
+                    "it": "Tortellini Panna e Prosciutto",
+                    "en": "Tortellini with Cream and Ham",
+                    "de": "Tortellini mit Sahne und Schinken"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 11.5,
+                "allergens": [
+                    1,
+                    3,
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 20,
+                "name": {
+                    "it": "Pennette all'Arrabbiata",
+                    "en": "Penne Arrabbiata",
+                    "de": "Penne Arrabbiata"
+                },
+                "description": {
+                    "it": "Salsa piccante",
+                    "en": "Spicy tomato sauce",
+                    "de": "Scharfe Tomatensauce"
+                },
+                "price": 9.5,
+                "allergens": [
+                    1
+                ],
+                "available": true
+            },
+            {
+                "id": 21,
+                "name": {
+                    "it": "Spaghetti alla Carbonara",
+                    "en": "Spaghetti Carbonara",
+                    "de": "Spaghetti Carbonara"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 11,
+                "allergens": [
+                    1,
+                    3,
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 22,
+                "name": {
+                    "it": "Lasagne",
+                    "en": "Lasagna",
+                    "de": "Lasagne"
+                },
+                "description": {
+                    "it": "Lasagna tradizionale",
+                    "en": "Traditional lasagna",
+                    "de": "Traditionelle Lasagne"
+                },
+                "price": 10.5,
+                "allergens": [
+                    1,
+                    3,
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 23,
+                "name": {
+                    "it": "Aglio Olio e Peperoncino",
+                    "en": "Garlic, Oil and Chili",
+                    "de": "Knoblauch, Öl und Chili"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 10,
+                "allergens": [
+                    1
+                ],
+                "available": true
+            },
+            {
+                "id": 24,
+                "name": {
+                    "it": "Pesto e Pomodorini",
+                    "en": "Pesto and Cherry Tomatoes",
+                    "de": "Pesto und Kirschtomaten"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 12,
+                "allergens": [
+                    1,
+                    7,
+                    8
+                ],
+                "available": true
+            }
+        ],
+        "primiMare": [
+            {
+                "id": 25,
+                "name": {
+                    "it": "Spaghetti alla Busara",
+                    "en": "Spaghetti Busara",
+                    "de": "Spaghetti Busara"
+                },
+                "description": {
+                    "it": "Con scampi",
+                    "en": "With scampi",
+                    "de": "Mit Scampi"
+                },
+                "price": 18.5,
+                "allergens": [
+                    1,
+                    2
+                ],
+                "available": true
+            },
+            {
+                "id": 26,
+                "name": {
+                    "it": "Spaghetti allo Scoglio",
+                    "en": "Seafood Spaghetti",
+                    "de": "Spaghetti mit Meeresfrüchten"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 17.5,
+                "allergens": [
+                    1,
+                    2,
+                    4,
+                    5,
+                    14
+                ],
+                "available": true
+            },
+            {
+                "id": 27,
+                "name": {
+                    "it": "Spaghetti alle Vongole",
+                    "en": "Spaghetti with Clams",
+                    "de": "Spaghetti mit Venusmuscheln"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 17,
+                "allergens": [
+                    1,
+                    14
+                ],
+                "available": true
+            },
+            {
+                "id": 28,
+                "name": {
+                    "it": "Gnocchetti Granchio e Rucola",
+                    "en": "Crab Gnocchi and Rocket",
+                    "de": "Gnocchi mit Krebs und Rucola"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 15,
+                "allergens": [
+                    1,
+                    2
+                ],
+                "available": true
+            },
+            {
+                "id": 29,
+                "name": {
+                    "it": "Pennette al Salmone",
+                    "en": "Penne with Salmon",
+                    "de": "Penne mit Lachs"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 14.5,
+                "allergens": [
+                    1,
+                    4,
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 30,
+                "name": {
+                    "it": "Tagliolini all'Astice e Crostacei",
+                    "en": "Tagliolini with Lobster",
+                    "de": "Tagliolini mit Hummer"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 25,
+                "allergens": [
+                    1,
+                    2
+                ],
+                "available": true
+            },
+            {
+                "id": 31,
+                "name": {
+                    "it": "Risotto alla Pescatora",
+                    "en": "Seafood Risotto",
+                    "de": "Risotto mit Meeresfrüchten"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 21,
+                "allergens": [
+                    2,
+                    4,
+                    5,
+                    14
+                ],
+                "available": true
+            },
+            {
+                "id": 32,
+                "name": {
+                    "it": "Spaghettone Gambero e Capasanta",
+                    "en": "King Prawn and Scallop Spaghetti",
+                    "de": "Spaghettone mit Garnelen und Jakobsmuscheln"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 20,
+                "allergens": [
+                    1,
+                    2,
+                    14
+                ],
+                "available": true
+            }
+        ],
+        "carne": [
+            {
+                "id": 33,
+                "name": {
+                    "it": "Tagliata con Rucola e Grana",
+                    "en": "Sliced Beef Steak with Rocket and Parmesan",
+                    "de": "Rindersteak mit Rucola und Parmesan"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 19.5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 34,
+                "name": {
+                    "it": "Bistecca di Roast Beef con Patate Fritte",
+                    "en": "Roast Beef Steak with French Fries",
+                    "de": "Roastbeef mit Pommes"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 17.5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 35,
+                "name": {
+                    "it": "Costata 500 g",
+                    "en": "500 g Rib Steak",
+                    "de": "Rib Steak 500 g"
+                },
+                "description": {
+                    "it": "Alla griglia",
+                    "en": "Grilled",
+                    "de": "Gegrillt"
+                },
+                "price": 24,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 36,
+                "name": {
+                    "it": "Filetto alla Griglia",
+                    "en": "Grilled Beef Fillet",
+                    "de": "Gegrilltes Rinderfilet"
+                },
+                "description": {
+                    "it": "220 g",
+                    "en": "220 g",
+                    "de": "220 g"
+                },
+                "price": 23,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 37,
+                "name": {
+                    "it": "Filetto al Pepe Verde",
+                    "en": "Fillet with Green Pepper Sauce",
+                    "de": "Filet mit grüner Pfeffersauce"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 25,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 38,
+                "name": {
+                    "it": "Tagliata di Pollo al Rosmarino",
+                    "en": "Rosemary Chicken Breast",
+                    "de": "Hähnchenbrust mit Rosmarin"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 12,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 39,
+                "name": {
+                    "it": "Cotoletta alla Milanese con Patate",
+                    "en": "Milanese Cutlet with Fries",
+                    "de": "Mailänder Schnitzel mit Pommes"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 13,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 40,
+                "name": {
+                    "it": "Würstel con Patate",
+                    "en": "Frankfurter with Fries",
+                    "de": "Würstel mit Pommes"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 9.5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 41,
+                "name": {
+                    "it": "Hamburger con Patate",
+                    "en": "Hamburger with Fries",
+                    "de": "Hamburger mit Pommes"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 11.5,
+                "allergens": [],
+                "available": true
+            }
+        ],
+        "pesce": [
+            {
+                "id": 42,
+                "name": {
+                    "it": "Tagliata di Tonno",
+                    "en": "Tuna Steak",
+                    "de": "Thunfischsteak"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 21,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 43,
+                "name": {
+                    "it": "Calamari Fritti",
+                    "en": "Fried Squid",
+                    "de": "Frittierte Calamari"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 16.5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 44,
+                "name": {
+                    "it": "Fritto Misto di Pesce",
+                    "en": "Mixed Fried Seafood",
+                    "de": "Gemischte Fischplatte"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 19.5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 45,
+                "name": {
+                    "it": "Coda di Rospo alla Griglia",
+                    "en": "Grilled Monkfish",
+                    "de": "Gegrillter Seeteufel"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 19,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 46,
+                "name": {
+                    "it": "Scampi o Gamberoni alla Griglia",
+                    "en": "Grilled Scampi or King Prawns",
+                    "de": "Gegrillte Scampi oder Riesengarnelen"
+                },
+                "description": {
+                    "it": "8 pezzi",
+                    "en": "8 pieces",
+                    "de": "8 Stück"
+                },
+                "price": 18,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 47,
+                "name": {
+                    "it": "Grigliata di Pesce",
+                    "en": "Mixed Grilled Fish",
+                    "de": "Gemischte Fischplatte vom Grill"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 23.5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 48,
+                "name": {
+                    "it": "Orata alla Griglia",
+                    "en": "Grilled Gilthead Bream",
+                    "de": "Gegrillte Dorade"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 17,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 49,
+                "name": {
+                    "it": "Branzino alla Griglia",
+                    "en": "Grilled Seabass",
+                    "de": "Gegrillter Wolfsbarsch"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 18,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 50,
+                "name": {
+                    "it": "Seppie e Calamari alla Griglia",
+                    "en": "Grilled Cuttlefish and Squid",
+                    "de": "Gegrillte Sepien und Calamari"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 20,
+                "allergens": [],
+                "available": true
+            }
+        ],
+        "insalate": [
+            {
+                "id": 51,
+                "name": {
+                    "it": "Brasiliana",
+                    "en": "Brazilian Salad",
+                    "de": "Brasilianischer Salat"
+                },
+                "description": {
+                    "it": "Lattuga, pomodori, carote, palmito, formaggio, mais, olive",
+                    "en": "Lettuce, tomatoes, carrots, palm hearts, cheese, corn, olives",
+                    "de": "Salat, Tomaten, Karotten, Palmenherzen, Käse, Mais, Oliven"
+                },
+                "price": 12,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 52,
+                "name": {
+                    "it": "David",
+                    "en": "David (Vegan)",
+                    "de": "David (Vegan)"
+                },
+                "description": {
+                    "it": "Lattuga, rucola, verdure grigliate, tofu, noci, pomodori secchi",
+                    "en": "Lettuce, rocket, grilled vegetables, tofu, walnuts, dried tomatoes",
+                    "de": "Salat, Rucola, Grillgemüse, Tofu, Walnüsse, getrocknete Tomaten"
+                },
+                "price": 12,
+                "allergens": [
+                    8
+                ],
+                "available": true
+            },
+            {
+                "id": 53,
+                "name": {
+                    "it": "Amalfi",
+                    "en": "Amalfi Salad",
+                    "de": "Amalfi Salat"
+                },
+                "description": {
+                    "it": "Lattuga, pomodoro, carote, granchio, gamberetti, tonno, olive",
+                    "en": "Lettuce, tomato, carrots, crab, shrimps, tuna, olives",
+                    "de": "Salat, Tomaten, Karotten, Krebs, Garnelen, Thunfisch, Oliven"
+                },
+                "price": 14,
+                "allergens": [
+                    2,
+                    4
+                ],
+                "available": true
+            },
+            {
+                "id": 54,
+                "name": {
+                    "it": "Greca",
+                    "en": "Greek Salad",
+                    "de": "Griechischer Salat"
+                },
+                "description": {
+                    "it": "Lattuga, pomodoro, cetriolo, feta, olive, cipolla",
+                    "en": "Lettuce, tomato, cucumber, feta, olives, onion",
+                    "de": "Salat, Tomaten, Gurken, Feta, Oliven, Zwiebeln"
+                },
+                "price": 12,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 55,
+                "name": {
+                    "it": "Caesar",
+                    "en": "Caesar Salad",
+                    "de": "Caesar Salat"
+                },
+                "description": {
+                    "it": "Lattuga, pollo, pomodorini, mais, grana, salsa yogurt",
+                    "en": "Lettuce, chicken, cherry tomatoes, corn, parmesan, yogurt dressing",
+                    "de": "Salat, Hähnchen, Kirschtomaten, Mais, Parmesan, Joghurtdressing"
+                },
+                "price": 14,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 56,
+                "name": {
+                    "it": "Gustosa",
+                    "en": "Tuna Salad",
+                    "de": "Thunfischsalat"
+                },
+                "description": {
+                    "it": "Lattuga, pomodoro, tonno, uovo, olive, mais",
+                    "en": "Lettuce, tomato, tuna, egg, olives, corn",
+                    "de": "Salat, Tomaten, Thunfisch, Ei, Oliven, Mais"
+                },
+                "price": 13,
+                "allergens": [
+                    3,
+                    4
+                ],
+                "available": true
+            }
+        ],
+        "contorni": [
+            {
+                "id": 57,
+                "name": {
+                    "it": "Patate Fritte",
+                    "en": "French Fries",
+                    "de": "Pommes Frites"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 58,
+                "name": {
+                    "it": "Verdure Fritte",
+                    "en": "Fried Vegetables",
+                    "de": "Frittiertes Gemüse"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5.5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 59,
+                "name": {
+                    "it": "Verdure alla Griglia",
+                    "en": "Grilled Vegetables",
+                    "de": "Grillgemüse"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 7,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 60,
+                "name": {
+                    "it": "Insalata Mista",
+                    "en": "Mixed Salad",
+                    "de": "Gemischter Salat"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 61,
+                "name": {
+                    "it": "Pizza Pane",
+                    "en": "Pizza Bread",
+                    "de": "Pizzabrot"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [
+                    1
+                ],
+                "available": true
+            },
+            {
+                "id": 62,
+                "name": {
+                    "it": "Patate al Forno",
+                    "en": "Baked Potatoes",
+                    "de": "Ofenkartoffeln"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [],
+                "available": true
+            }
+        ],
+        "dessert": [
+            {
+                "id": 63,
+                "name": {
+                    "it": "Tiramisù",
+                    "en": "Tiramisu",
+                    "de": "Tiramisu"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [
+                    1,
+                    3,
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 64,
+                "name": {
+                    "it": "Panna Cotta",
+                    "en": "Panna Cotta",
+                    "de": "Panna Cotta"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 65,
+                "name": {
+                    "it": "Semifreddo al Pistacchio",
+                    "en": "Pistachio Semifreddo",
+                    "de": "Pistazien-Semifreddo"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [
+                    7,
+                    8
+                ],
+                "available": true
+            },
+            {
+                "id": 66,
+                "name": {
+                    "it": "Semifreddo allo Yogurt",
+                    "en": "Yogurt Semifreddo",
+                    "de": "Joghurt-Semifreddo"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 67,
+                "name": {
+                    "it": "Meringata",
+                    "en": "Meringue Cake",
+                    "de": "Baiser-Torte"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [
+                    3,
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 68,
+                "name": {
+                    "it": "Profiteroles",
+                    "en": "Profiteroles",
+                    "de": "Profiteroles"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 5,
+                "allergens": [
+                    1,
+                    3,
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 69,
+                "name": {
+                    "it": "Fragole con Panna",
+                    "en": "Strawberries with Cream",
+                    "de": "Erdbeeren mit Sahne"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 6,
+                "allergens": [
+                    7
+                ],
+                "available": true
+            },
+            {
+                "id": 70,
+                "name": {
+                    "it": "Macedonia di Frutta",
+                    "en": "Fruit Salad",
+                    "de": "Obstsalat"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 6,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 71,
+                "name": {
+                    "it": "Ananas a Fette",
+                    "en": "Fresh Pineapple",
+                    "de": "Frische Ananas"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 6,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 72,
+                "name": {
+                    "it": "Speciale della Casa",
+                    "en": "House Special Dessert",
+                    "de": "Dessert des Hauses"
+                },
+                "description": {
+                    "it": "",
+                    "en": "",
+                    "de": ""
+                },
+                "price": 9,
+                "allergens": [],
+                "available": true
+            },
+            {
+                "id": 73,
+                "name": {
+                    "it": "Sgroppino",
+                    "en": "Sgroppino",
+                    "de": "Sgroppino"
+                },
+                "description": {
+                    "it": "Limone, caffè o liquirizia",
+                    "en": "Lemon, coffee or liquorice",
+                    "de": "Zitrone, Kaffee oder Lakritz"
+                },
+                "price": 5,
+                "allergens": [],
+                "available": true
+            }
+        ]
+    }

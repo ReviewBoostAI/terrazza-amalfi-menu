@@ -1,0 +1,158 @@
+/* ===========================================================
+   CATEGORY TABS
+=========================================================== */
+
+.category-tabs{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+    display:flex;
+
+    gap:12px;
+
+    overflow-x:auto;
+
+    padding:12px 0 18px;
+
+    margin-bottom:25px;
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    scrollbar-width:none;
+
+    border-bottom:1px solid rgba(0,0,0,.05);
+
+}
+
+.category-tabs::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+
+/* ===========================================================
+   TAB
+=========================================================== */
+
+.tab{
+
+    flex-shrink:0;
+
+    padding:12px 22px;
+
+    border:none;
+
+    border-radius:999px;
+
+    background:#F2F2F2;
+
+    color:#666;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:all .30s ease;
+
+    white-space:nowrap;
+
+}
+
+
+/* ===========================================================
+   HOVER
+=========================================================== */
+
+.tab:hover{
+
+    background:#E9E9E9;
+
+    transform:translateY(-2px);
+
+}
+
+
+/* ===========================================================
+   ACTIVE
+=========================================================== */
+
+.tab.active{
+
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--primary-light)
+    );
+
+    color:white;
+
+    box-shadow:
+        0 8px 20px rgba(107,74,52,.28);
+
+}
+
+
+/* ===========================================================
+   FOCUS
+=========================================================== */
+
+.tab:focus-visible{
+
+    outline:3px solid rgba(107,74,52,.25);
+
+    outline-offset:2px;
+
+}
+
+
+/* ===========================================================
+   RESPONSIVE
+=========================================================== */
+
+@media(max-width:768px){
+
+    .category-tabs{
+
+        gap:10px;
+
+        padding:10px 0 16px;
+
+    }
+
+    .tab{
+
+        padding:10px 18px;
+
+        font-size:13px;
+
+    }
+
+}
+
+
+/* ===========================================================
+   DESKTOP
+=========================================================== */
+
+@media(min-width:992px){
+
+    .category-tabs{
+
+        justify-content:center;
+
+        overflow-x:visible;
+
+    }
+
+}

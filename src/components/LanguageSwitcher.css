@@ -1,0 +1,156 @@
+/* ===========================================================
+   LANGUAGE SWITCHER
+=========================================================== */
+
+.language-switcher{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:6px;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+    border-radius:999px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+
+/* ===========================================================
+   BUTTON
+=========================================================== */
+
+.language-btn{
+
+    width:46px;
+
+    height:46px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:transparent;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    transition:all .30s ease;
+
+}
+
+
+/* ===========================================================
+   HOVER
+=========================================================== */
+
+.language-btn:hover{
+
+    transform:translateY(-2px);
+
+    background:rgba(255,255,255,.18);
+
+}
+
+
+/* ===========================================================
+   ACTIVE
+=========================================================== */
+
+.language-btn.active{
+
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--primary-light)
+    );
+
+    color:#fff;
+
+    box-shadow:
+        0 8px 20px rgba(107,74,52,.30);
+
+}
+
+
+/* ===========================================================
+   FOCUS
+=========================================================== */
+
+.language-btn:focus-visible{
+
+    outline:3px solid rgba(107,74,52,.25);
+
+    outline-offset:3px;
+
+}
+
+
+/* ===========================================================
+   MOBILE
+=========================================================== */
+
+@media(max-width:768px){
+
+    .language-switcher{
+
+        gap:8px;
+
+        padding:5px;
+
+    }
+
+    .language-btn{
+
+        width:42px;
+
+        height:42px;
+
+        font-size:22px;
+
+    }
+
+}
+
+
+/* ===========================================================
+   DESKTOP
+=========================================================== */
+
+@media(min-width:992px){
+
+    .language-switcher{
+
+        gap:12px;
+
+    }
+
+    .language-btn{
+
+        width:48px;
+
+        height:48px;
+
+        font-size:25px;
+
+    }
+
+}
