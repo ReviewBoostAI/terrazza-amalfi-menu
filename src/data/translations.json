@@ -63,6 +63,7 @@
 
       "pizza": {
         "classiche": "Classiche",
+        "bianche": "Bianche",
         "speciali": "Speciali"
       },
 
@@ -146,6 +147,7 @@
 
       "pizza": {
         "classiche": "Classic",
+        "bianche": "White",
         "speciali": "Special"
       },
 
@@ -229,6 +231,7 @@
 
       "pizza": {
         "classiche": "Klassisch",
+        "bianche": "Weiß",
         "speciali": "Spezial"
       },
 

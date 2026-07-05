@@ -33,6 +33,7 @@ export const translations = {
     dessert:"Dessert",
 
     classic:"Classiche",
+    white:"Bianche",
     special:"Speciali",
 
     coffee:"Caffetteria",
