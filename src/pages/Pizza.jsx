@@ -26,7 +26,7 @@ export default function Pizza() {
     },
     {
       key: "bianche",
-      label: t.tabs.pizza.classiche,
+      label: t.tabs.pizza.bianche,
     },
     {
       key: "speciali",
