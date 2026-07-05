@@ -12,7 +12,7 @@
     border:1px solid rgba(184,134,70,.12);
     box-shadow:0 10px 30px rgba(0,0,0,.06);
     transition:all .35s ease;
-    overflow:hidden;
+    overflow:visible;
 }
 
 .menu-item:hover{
@@ -42,6 +42,48 @@
     display:flex;
     flex-direction:column;
     gap:14px;
+
+    padding-right:180px;
+
+    position:relative;
+    z-index:5;
+}
+/* ===========================================================
+   DISH IMAGE
+=========================================================== */
+
+.menu-dish-image{
+
+    position:absolute;
+
+    right:-10px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width:180px;
+
+    height:auto;
+
+    object-fit:contain;
+
+    pointer-events:none;
+
+    user-select:none;
+
+    z-index:2;
+
+    filter:drop-shadow(0 15px 25px rgba(0,0,0,.18));
+
+    transition:.35s ease;
+
+}
+
+.menu-item:hover .menu-dish-image{
+
+    transform:translateY(-50%) scale(1.05);
+
 }
 
 /* ===========================================================
@@ -196,6 +238,19 @@
         font-size:11px;
         padding:6px 10px;
     }
+    .menu-info{
+
+    padding-right:130px;
+
+}
+
+.menu-dish-image{
+
+    width:130px;
+
+    right:-8px;
+
+}
 
 }
 /* ===========================================================
