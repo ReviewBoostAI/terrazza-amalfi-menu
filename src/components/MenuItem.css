@@ -12,7 +12,7 @@
     border:1px solid rgba(184,134,70,.12);
     box-shadow:0 10px 30px rgba(0,0,0,.06);
     transition:all .35s ease;
-    overflow:visible;
+    overflow:hidden;
 }
 
 .menu-item:hover{
@@ -43,7 +43,7 @@
     flex-direction:column;
     gap:14px;
 
-    padding-right:180px;
+    padding-right:210px;
 
     position:relative;
     z-index:5;
@@ -56,27 +56,27 @@
 
     position:absolute;
 
-    right:-10px;
+    right:-35px;
 
     top:50%;
 
     transform:translateY(-50%);
 
-    width:180px;
+    width:220px;
+
+    max-width:none;
 
     height:auto;
 
     object-fit:contain;
 
+    z-index:2;
+
     pointer-events:none;
 
     user-select:none;
 
-    z-index:2;
-
-    filter:drop-shadow(0 15px 25px rgba(0,0,0,.18));
-
-    transition:.35s ease;
+    filter:drop-shadow(0 20px 30px rgba(0,0,0,.18));
 
 }
 
@@ -240,15 +240,15 @@
     }
     .menu-info{
 
-    padding-right:130px;
+    padding-right:145px;
 
 }
 
 .menu-dish-image{
 
-    width:130px;
+    width:150px;
 
-    right:-8px;
+    right:-20px;
 
 }
 
