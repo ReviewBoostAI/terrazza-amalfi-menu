@@ -13,17 +13,11 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <span className="hero-subtitle">
-          Terrazza
-        </span>
-
-        <h1 className="hero-title">
-          AMALFI
-        </h1>
-
-        <p className="hero-location">
-          JESOLO
-        </p>
+        <img
+  src="/logo-amalfi.png"
+  alt="Terrazza Amalfi"
+  className="hero-logo"
+/>
 
         <LanguageSwitcher />
       </motion.div>

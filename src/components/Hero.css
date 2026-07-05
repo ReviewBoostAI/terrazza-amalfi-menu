@@ -110,3 +110,12 @@
     }
 
 }
+.hero-logo {
+  width: 380px;
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 20px;
+  user-select: none;
+  pointer-events: none;
+}
