@@ -15,7 +15,8 @@
         },
         "price": 6,
         "allergens": [
-          1
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -37,8 +38,9 @@
         },
         "price": 7,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -60,8 +62,9 @@
         },
         "price": 8.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -82,11 +85,7 @@
           "de": "Tomatensauce, Mozzarella, Sardellen"
         },
         "price": 8.5,
-        "allergens": [
-          1,
-          4,
-          7
-        ],
+        "allergens": [],
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -107,8 +106,9 @@
         },
         "price": 8.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -130,8 +130,10 @@
         },
         "price": 8.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -153,8 +155,9 @@
         },
         "price": 8.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -176,8 +179,9 @@
         },
         "price": 8,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -199,8 +203,9 @@
         },
         "price": 8.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -222,9 +227,11 @@
         },
         "price": 11,
         "allergens": [
-          1,
           3,
-          7
+          7,
+          9,
+          13,
+          14
         ],
         "available": true,
         "featured": false,
@@ -246,9 +253,10 @@
         },
         "price": 9.5,
         "allergens": [
-          1,
-          4,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -270,8 +278,9 @@
         },
         "price": 10,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -293,8 +302,10 @@
         },
         "price": 9.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": true,
@@ -316,8 +327,10 @@
         },
         "price": 8.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -339,8 +352,9 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -362,9 +376,11 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          2,
-          7
+          3,
+          7,
+          8,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -386,11 +402,11 @@
         },
         "price": 15,
         "allergens": [
-          1,
-          2,
+          3,
           4,
+          5,
           7,
-          14
+          9
         ],
         "available": true,
         "featured": true,
@@ -412,8 +428,9 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -435,8 +452,9 @@
         },
         "price": 11,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -458,8 +476,10 @@
         },
         "price": 11,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": true,
@@ -481,8 +501,10 @@
         },
         "price": 10.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": true,
@@ -504,8 +526,9 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -527,8 +550,9 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -550,8 +574,9 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -573,8 +598,10 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -596,8 +623,10 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -619,8 +648,9 @@
         },
         "price": 13,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -642,9 +672,11 @@
         },
         "price": 12.5,
         "allergens": [
-          1,
-          2,
-          7
+          3,
+          7,
+          8,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -666,8 +698,9 @@
         },
         "price": 10,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -689,8 +722,9 @@
         },
         "price": 11.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -712,8 +746,10 @@
         },
         "price": 11,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": true,
@@ -735,8 +771,9 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -758,8 +795,9 @@
         },
         "price": 10,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -781,8 +819,10 @@
         },
         "price": 12.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -804,8 +844,10 @@
         },
         "price": 10,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -827,8 +869,9 @@
         },
         "price": 11.5,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -850,9 +893,10 @@
         },
         "price": 14,
         "allergens": [
-          1,
+          3,
+          5,
           7,
-          14
+          9
         ],
         "available": true,
         "featured": false,
@@ -874,8 +918,9 @@
         },
         "price": 11,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -899,8 +944,9 @@
         },
         "price": 13,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -922,8 +968,9 @@
         },
         "price": 13,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": false,
@@ -945,8 +992,9 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -968,8 +1016,10 @@
         },
         "price": 13,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": false,
@@ -977,6 +1027,105 @@
         "vegan": false,
         "spicy": false
       },
+      {
+        "id": 209,
+        "name": {
+          "it": "Porcona",
+          "en": "Porcona",
+          "de": "Porcona"
+        },
+        "description": {
+          "it": "Mozzarella, salsiccia, würstel, salamino, prosciutto cotto, pancetta",
+          "en": "Mozzarella, sausage, frankfurter, spicy salami, ham, bacon",
+          "de": "Mozzarella, Wurst, Würstel, Salami, Schinken, Speck"
+        },
+        "price": 13.5,
+        "allergens": [
+          3,
+          7,
+          9
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": true
+      },
+      {
+        "id": 210,
+        "name": {
+          "it": "Del Pizzaiolo",
+          "en": "Pizza Chef's Choice",
+          "de": "Pizza des Pizzabäckers"
+        },
+        "description": {
+          "it": "Ingredienti a sorpresa",
+          "en": "Surprise ingredients",
+          "de": "Überraschungszutaten"
+        },
+        "price": 15,
+        "allergens": [
+          3,
+          7,
+          9,
+          13
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 211,
+        "name": {
+          "it": "Amalfi",
+          "en": "Amalfi",
+          "de": "Amalfi"
+        },
+        "description": {
+          "it": "Mozzarella, pomodorini, patate al forno, speck",
+          "en": "Mozzarella, cherry tomatoes, baked potatoes, speck",
+          "de": "Mozzarella, Kirschtomaten, Ofenkartoffeln, Speck"
+        },
+        "price": 13,
+        "allergens": [
+          3,
+          7,
+          9
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      },
+      {
+        "id": 212,
+        "name": {
+          "it": "Gigi",
+          "en": "Gigi",
+          "de": "Gigi"
+        },
+        "description": {
+          "it": "Mozzarella, pomodorini, burrata, rucola, prosciutto crudo",
+          "en": "Mozzarella, cherry tomatoes, burrata, rocket, Parma ham",
+          "de": "Mozzarella, Kirschtomaten, Burrata, Rucola, Parmaschinken"
+        },
+        "price": 15,
+        "allergens": [
+          3,
+          7,
+          9
+        ],
+        "available": true,
+        "featured": true,
+        "vegetarian": false,
+        "vegan": false,
+        "spicy": false
+      }
+    ],
+    "bianche": [
       {
         "id": 204,
         "name": {
@@ -991,8 +1140,10 @@
         },
         "price": 12,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": true,
@@ -1014,9 +1165,10 @@
         },
         "price": 13,
         "allergens": [
-          1,
+          2,
+          3,
           7,
-          8
+          9
         ],
         "available": true,
         "featured": true,
@@ -1038,9 +1190,10 @@
         },
         "price": 14,
         "allergens": [
-          1,
-          4,
-          7
+          3,
+          5,
+          7,
+          9
         ],
         "available": true,
         "featured": true,
@@ -1062,8 +1215,10 @@
         },
         "price": 13,
         "allergens": [
-          1,
-          7
+          3,
+          7,
+          9,
+          13
         ],
         "available": true,
         "featured": true,
@@ -1086,245 +1241,14 @@
         "price": 15,
         "allergens": [
           1,
+          2,
+          3,
           7,
-          8
+          9
         ],
         "available": true,
         "featured": true,
         "vegetarian": true,
-        "vegan": false,
-        "spicy": false
-      },
-      {
-        "id": 209,
-        "name": {
-          "it": "Porcona",
-          "en": "Porcona",
-          "de": "Porcona"
-        },
-        "description": {
-          "it": "Mozzarella, salsiccia, würstel, salamino, prosciutto cotto, pancetta",
-          "en": "Mozzarella, sausage, frankfurter, spicy salami, ham, bacon",
-          "de": "Mozzarella, Wurst, Würstel, Salami, Schinken, Speck"
-        },
-        "price": 13.5,
-        "allergens": [
-          1,
-          7
-        ],
-        "available": true,
-        "featured": true,
-        "vegetarian": false,
-        "vegan": false,
-        "spicy": true
-      },
-      {
-        "id": 210,
-        "name": {
-          "it": "Del Pizzaiolo",
-          "en": "Pizza Chef's Choice",
-          "de": "Pizza des Pizzabäckers"
-        },
-        "description": {
-          "it": "Ingredienti a sorpresa",
-          "en": "Surprise ingredients",
-          "de": "Überraschungszutaten"
-        },
-        "price": 15,
-        "allergens": [
-          1,
-          7
-        ],
-        "available": true,
-        "featured": true,
-        "vegetarian": false,
-        "vegan": false,
-        "spicy": false
-      },
-      {
-        "id": 211,
-        "name": {
-          "it": "Amalfi",
-          "en": "Amalfi",
-          "de": "Amalfi"
-        },
-        "description": {
-          "it": "Mozzarella, pomodorini, patate al forno, speck",
-          "en": "Mozzarella, cherry tomatoes, baked potatoes, speck",
-          "de": "Mozzarella, Kirschtomaten, Ofenkartoffeln, Speck"
-        },
-        "price": 13,
-        "allergens": [
-          1,
-          7
-        ],
-        "available": true,
-        "featured": true,
-        "vegetarian": false,
-        "vegan": false,
-        "spicy": false
-      },
-      {
-        "id": 212,
-        "name": {
-          "it": "Gigi",
-          "en": "Gigi",
-          "de": "Gigi"
-        },
-        "description": {
-          "it": "Mozzarella, pomodorini, burrata, rucola, prosciutto crudo",
-          "en": "Mozzarella, cherry tomatoes, burrata, rocket, Parma ham",
-          "de": "Mozzarella, Kirschtomaten, Burrata, Rucola, Parmaschinken"
-        },
-        "price": 15,
-        "allergens": [
-          1,
-          7
-        ],
-        "available": true,
-        "featured": true,
-        "vegetarian": false,
-        "vegan": false,
-        "spicy": false
-      },
-      {
-        "id": 300,
-        "name": {
-          "it": "Biancaneve",
-          "en": "Snow White",
-          "de": "Schneewittchen"
-        },
-        "description": {
-          "it": "Mozzarella, quattro formaggi, olive nere",
-          "en": "Mozzarella, four cheeses, black olives",
-          "de": "Mozzarella, vier Käsesorten, schwarze Oliven"
-        },
-        "price": 12,
-        "allergens": [
-          1,
-          7
-        ],
-        "available": true,
-        "featured": true,
-        "vegetarian": true,
-        "vegan": false,
-        "spicy": false
-      },
-      {
-        "id": 301,
-        "name": {
-          "it": "Bianca e Bernie",
-          "en": "Bianca & Bernie",
-          "de": "Bianca & Bernie"
-        },
-        "description": {
-          "it": "Mozzarella, noci, speck, Philadelphia",
-          "en": "Mozzarella, walnuts, speck, Philadelphia",
-          "de": "Mozzarella, Walnüsse, Speck, Philadelphia"
-        },
-        "price": 13,
-        "allergens": [
-          1,
-          7,
-          8
-        ],
-        "available": true,
-        "featured": true,
-        "vegetarian": false,
-        "vegan": false,
-        "spicy": false
-      },
-      {
-        "id": 302,
-        "name": {
-          "it": "Salmone e Philadelphia",
-          "en": "Salmon and Philadelphia",
-          "de": "Lachs und Philadelphia"
-        },
-        "description": {
-          "it": "Mozzarella, salmone affumicato, Philadelphia",
-          "en": "Mozzarella, smoked salmon, Philadelphia",
-          "de": "Mozzarella, Räucherlachs, Philadelphia"
-        },
-        "price": 14,
-        "allergens": [
-          1,
-          4,
-          7
-        ],
-        "available": true,
-        "featured": true,
-        "vegetarian": false,
-        "vegan": false,
-        "spicy": false
-      },
-      {
-        "id": 303,
-        "name": {
-          "it": "Rustica",
-          "en": "Rustica",
-          "de": "Rustica"
-        },
-        "description": {
-          "it": "Mozzarella, patate al forno, pancetta, pomodori secchi",
-          "en": "Mozzarella, baked potatoes, bacon, dried tomatoes",
-          "de": "Mozzarella, Ofenkartoffeln, Speck, getrocknete Tomaten"
-        },
-        "price": 13,
-        "allergens": [
-          1,
-          7
-        ],
-        "available": true,
-        "featured": false,
-        "vegetarian": false,
-        "vegan": false,
-        "spicy": false
-      },
-      {
-        "id": 304,
-        "name": {
-          "it": "Leo",
-          "en": "Leo",
-          "de": "Leo"
-        },
-        "description": {
-          "it": "Mozzarella, pomodorini, pesto, burrata, basilico",
-          "en": "Mozzarella, cherry tomatoes, pesto, burrata, basil",
-          "de": "Mozzarella, Kirschtomaten, Pesto, Burrata, Basilikum"
-        },
-        "price": 15,
-        "allergens": [
-          1,
-          7,
-          8
-        ],
-        "available": true,
-        "featured": true,
-        "vegetarian": true,
-        "vegan": false,
-        "spicy": false
-      },
-      {
-        "id": 305,
-        "name": {
-          "it": "Amalfi Bianca",
-          "en": "Amalfi White",
-          "de": "Amalfi Weiß"
-        },
-        "description": {
-          "it": "Mozzarella, pomodorini, patate al forno, speck",
-          "en": "Mozzarella, cherry tomatoes, baked potatoes, speck",
-          "de": "Mozzarella, Kirschtomaten, Ofenkartoffeln, Speck"
-        },
-        "price": 13,
-        "allergens": [
-          1,
-          7
-        ],
-        "available": true,
-        "featured": true,
-        "vegetarian": false,
         "vegan": false,
         "spicy": false
       }

@@ -14,10 +14,7 @@
                     "de": ""
                 },
                 "price": 12.5,
-                "allergens": [
-                    3,
-                    11
-                ],
+                "allergens": [],
                 "available": true
             },
             {
@@ -35,7 +32,8 @@
                 "price": 16,
                 "allergens": [
                     3,
-                    9
+                    11,
+                    13
                 ],
                 "available": true
             },
@@ -53,7 +51,7 @@
                 },
                 "price": 13.5,
                 "allergens": [
-                    5
+                    4
                 ],
                 "available": true
             },
@@ -71,8 +69,8 @@
                 },
                 "price": 9,
                 "allergens": [
-                    2,
-                    3
+                    13,
+                    14
                 ],
                 "available": true
             },
@@ -89,9 +87,7 @@
                     "de": ""
                 },
                 "price": 15,
-                "allergens": [
-                    7
-                ],
+                "allergens": [],
                 "available": true
             },
             {
@@ -107,9 +103,7 @@
                     "de": "Tomaten und Mozzarella"
                 },
                 "price": 9,
-                "allergens": [
-                    7
-                ],
+                "allergens": [],
                 "available": true
             },
             {
@@ -126,9 +120,9 @@
                 },
                 "price": 15,
                 "allergens": [
-                    2,
+                    4,
                     5,
-                    14
+                    8
                 ],
                 "available": true
             },
@@ -146,7 +140,7 @@
                 },
                 "price": 18,
                 "allergens": [
-                    5
+                    4
                 ],
                 "available": true
             },
@@ -164,7 +158,7 @@
                 },
                 "price": 6,
                 "allergens": [
-                    1
+                    9
                 ],
                 "available": true
             },
@@ -182,10 +176,10 @@
                 },
                 "price": 25,
                 "allergens": [
-                    2,
-                    4,
+                    3,
                     5,
-                    14
+                    8,
+                    9
                 ],
                 "available": true
             }
@@ -205,7 +199,8 @@
                 },
                 "price": 6.5,
                 "allergens": [
-                    7
+                    3,
+                    9
                 ],
                 "available": true
             },
@@ -223,7 +218,8 @@
                 },
                 "price": 6.5,
                 "allergens": [
-                    7
+                    3,
+                    9
                 ],
                 "available": true
             },
@@ -256,7 +252,10 @@
                     "de": ""
                 },
                 "price": 7.5,
-                "allergens": [],
+                "allergens": [
+                    3,
+                    9
+                ],
                 "available": true
             },
             {
@@ -272,7 +271,9 @@
                     "de": ""
                 },
                 "price": 6.5,
-                "allergens": [],
+                "allergens": [
+                    9
+                ],
                 "available": true
             },
             {
@@ -289,10 +290,9 @@
                 },
                 "price": 23,
                 "allergens": [
-                    2,
                     4,
                     5,
-                    14
+                    8
                 ],
                 "available": true
             }
@@ -312,9 +312,8 @@
                 },
                 "price": 10,
                 "allergens": [
-                    1,
-                    3,
-                    9
+                    9,
+                    12
                 ],
                 "available": true
             },
@@ -332,7 +331,8 @@
                 },
                 "price": 8.5,
                 "allergens": [
-                    1
+                    9,
+                    12
                 ],
                 "available": true
             },
@@ -350,9 +350,8 @@
                 },
                 "price": 11.5,
                 "allergens": [
-                    1,
                     3,
-                    7
+                    9
                 ],
                 "available": true
             },
@@ -370,7 +369,8 @@
                 },
                 "price": 9.5,
                 "allergens": [
-                    1
+                    9,
+                    12
                 ],
                 "available": true
             },
@@ -388,9 +388,9 @@
                 },
                 "price": 11,
                 "allergens": [
-                    1,
                     3,
-                    7
+                    9,
+                    14
                 ],
                 "available": true
             },
@@ -408,9 +408,10 @@
                 },
                 "price": 10.5,
                 "allergens": [
-                    1,
                     3,
-                    7
+                    9,
+                    12,
+                    14
                 ],
                 "available": true
             },
@@ -428,7 +429,7 @@
                 },
                 "price": 10,
                 "allergens": [
-                    1
+                    9
                 ],
                 "available": true
             },
@@ -447,8 +448,9 @@
                 "price": 12,
                 "allergens": [
                     1,
-                    7,
-                    8
+                    2,
+                    3,
+                    9
                 ],
                 "available": true
             }
@@ -468,8 +470,9 @@
                 },
                 "price": 18.5,
                 "allergens": [
-                    1,
-                    2
+                    8,
+                    9,
+                    12
                 ],
                 "available": true
             },
@@ -487,10 +490,11 @@
                 },
                 "price": 17.5,
                 "allergens": [
-                    1,
-                    2,
                     4,
                     5,
+                    8,
+                    9,
+                    13,
                     14
                 ],
                 "available": true
@@ -509,8 +513,8 @@
                 },
                 "price": 17,
                 "allergens": [
-                    1,
-                    14
+                    4,
+                    9
                 ],
                 "available": true
             },
@@ -528,8 +532,12 @@
                 },
                 "price": 15,
                 "allergens": [
-                    1,
-                    2
+                    3,
+                    5,
+                    8,
+                    9,
+                    13,
+                    14
                 ],
                 "available": true
             },
@@ -547,9 +555,9 @@
                 },
                 "price": 14.5,
                 "allergens": [
-                    1,
-                    4,
-                    7
+                    3,
+                    5,
+                    9
                 ],
                 "available": true
             },
@@ -567,8 +575,11 @@
                 },
                 "price": 25,
                 "allergens": [
-                    1,
-                    2
+                    3,
+                    4,
+                    5,
+                    8,
+                    13
                 ],
                 "available": true
             },
@@ -586,10 +597,11 @@
                 },
                 "price": 21,
                 "allergens": [
-                    2,
+                    3,
                     4,
                     5,
-                    14
+                    8,
+                    13
                 ],
                 "available": true
             },
@@ -607,9 +619,11 @@
                 },
                 "price": 20,
                 "allergens": [
-                    1,
-                    2,
-                    14
+                    4,
+                    5,
+                    8,
+                    9,
+                    12
                 ],
                 "available": true
             }
@@ -628,7 +642,9 @@
                     "de": ""
                 },
                 "price": 19.5,
-                "allergens": [],
+                "allergens": [
+                    3
+                ],
                 "available": true
             },
             {
@@ -644,7 +660,9 @@
                     "de": ""
                 },
                 "price": 17.5,
-                "allergens": [],
+                "allergens": [
+                    9
+                ],
                 "available": true
             },
             {
@@ -692,7 +710,10 @@
                     "de": ""
                 },
                 "price": 25,
-                "allergens": [],
+                "allergens": [
+                    3,
+                    9
+                ],
                 "available": true
             },
             {
@@ -724,7 +745,11 @@
                     "de": ""
                 },
                 "price": 13,
-                "allergens": [],
+                "allergens": [
+                    1,
+                    9,
+                    14
+                ],
                 "available": true
             },
             {
@@ -740,7 +765,9 @@
                     "de": ""
                 },
                 "price": 9.5,
-                "allergens": [],
+                "allergens": [
+                    9
+                ],
                 "available": true
             },
             {
@@ -756,7 +783,14 @@
                     "de": ""
                 },
                 "price": 11.5,
-                "allergens": [],
+                "allergens": [
+                    1,
+                    2,
+                    3,
+                    6,
+                    7,
+                    9
+                ],
                 "available": true
             }
         ],
@@ -774,7 +808,10 @@
                     "de": ""
                 },
                 "price": 21,
-                "allergens": [],
+                "allergens": [
+                    5,
+                    6
+                ],
                 "available": true
             },
             {
@@ -790,7 +827,16 @@
                     "de": ""
                 },
                 "price": 16.5,
-                "allergens": [],
+                "allergens": [
+                    1,
+                    3,
+                    5,
+                    9,
+                    11,
+                    12,
+                    13,
+                    14
+                ],
                 "available": true
             },
             {
@@ -806,7 +852,17 @@
                     "de": ""
                 },
                 "price": 19.5,
-                "allergens": [],
+                "allergens": [
+                    1,
+                    3,
+                    5,
+                    8,
+                    9,
+                    11,
+                    12,
+                    13,
+                    14
+                ],
                 "available": true
             },
             {
@@ -838,7 +894,9 @@
                     "de": "8 Stück"
                 },
                 "price": 18,
-                "allergens": [],
+                "allergens": [
+                    8
+                ],
                 "available": true
             },
             {
@@ -854,7 +912,11 @@
                     "de": ""
                 },
                 "price": 23.5,
-                "allergens": [],
+                "allergens": [
+                    4,
+                    5,
+                    8
+                ],
                 "available": true
             },
             {
@@ -870,7 +932,9 @@
                     "de": ""
                 },
                 "price": 17,
-                "allergens": [],
+                "allergens": [
+                    5
+                ],
                 "available": true
             },
             {
@@ -886,7 +950,9 @@
                     "de": ""
                 },
                 "price": 18,
-                "allergens": [],
+                "allergens": [
+                    5
+                ],
                 "available": true
             },
             {
@@ -902,7 +968,9 @@
                     "de": ""
                 },
                 "price": 20,
-                "allergens": [],
+                "allergens": [
+                    5
+                ],
                 "available": true
             }
         ],
@@ -921,7 +989,8 @@
                 },
                 "price": 12,
                 "allergens": [
-                    7
+                    3,
+                    13
                 ],
                 "available": true
             },
@@ -939,7 +1008,11 @@
                 },
                 "price": 12,
                 "allergens": [
-                    8
+                    1,
+                    2,
+                    3,
+                    10,
+                    13
                 ],
                 "available": true
             },
@@ -957,8 +1030,10 @@
                 },
                 "price": 14,
                 "allergens": [
-                    2,
-                    4
+                    4,
+                    5,
+                    8,
+                    13
                 ],
                 "available": true
             },
@@ -976,7 +1051,8 @@
                 },
                 "price": 12,
                 "allergens": [
-                    7
+                    3,
+                    13
                 ],
                 "available": true
             },
@@ -994,7 +1070,7 @@
                 },
                 "price": 14,
                 "allergens": [
-                    7
+                    3
                 ],
                 "available": true
             },
@@ -1013,7 +1089,9 @@
                 "price": 13,
                 "allergens": [
                     3,
-                    4
+                    5,
+                    13,
+                    14
                 ],
                 "available": true
             }
@@ -1032,7 +1110,9 @@
                     "de": ""
                 },
                 "price": 5,
-                "allergens": [],
+                "allergens": [
+                    9
+                ],
                 "available": true
             },
             {
@@ -1048,7 +1128,9 @@
                     "de": ""
                 },
                 "price": 5.5,
-                "allergens": [],
+                "allergens": [
+                    9
+                ],
                 "available": true
             },
             {
@@ -1097,7 +1179,7 @@
                 },
                 "price": 5,
                 "allergens": [
-                    1
+                    9
                 ],
                 "available": true
             },
@@ -1114,7 +1196,9 @@
                     "de": ""
                 },
                 "price": 5,
-                "allergens": [],
+                "allergens": [
+                    3
+                ],
                 "available": true
             }
         ],
@@ -1134,8 +1218,13 @@
                 "price": 5,
                 "allergens": [
                     1,
+                    2,
                     3,
-                    7
+                    6,
+                    7,
+                    9,
+                    13,
+                    14
                 ],
                 "available": true
             },
@@ -1153,7 +1242,7 @@
                 },
                 "price": 5,
                 "allergens": [
-                    7
+                    3
                 ],
                 "available": true
             },
@@ -1171,8 +1260,14 @@
                 },
                 "price": 5,
                 "allergens": [
+                    1,
+                    2,
+                    3,
+                    6,
                     7,
-                    8
+                    9,
+                    13,
+                    14
                 ],
                 "available": true
             },
@@ -1190,7 +1285,14 @@
                 },
                 "price": 5,
                 "allergens": [
-                    7
+                    1,
+                    2,
+                    3,
+                    6,
+                    7,
+                    9,
+                    13,
+                    14
                 ],
                 "available": true
             },
@@ -1208,8 +1310,14 @@
                 },
                 "price": 5,
                 "allergens": [
+                    1,
+                    2,
                     3,
-                    7
+                    6,
+                    7,
+                    9,
+                    13,
+                    14
                 ],
                 "available": true
             },
@@ -1228,8 +1336,13 @@
                 "price": 5,
                 "allergens": [
                     1,
+                    2,
                     3,
-                    7
+                    6,
+                    7,
+                    9,
+                    13,
+                    14
                 ],
                 "available": true
             },
@@ -1247,7 +1360,7 @@
                 },
                 "price": 6,
                 "allergens": [
-                    7
+                    3
                 ],
                 "available": true
             },
@@ -1296,7 +1409,16 @@
                     "de": ""
                 },
                 "price": 9,
-                "allergens": [],
+                "allergens": [
+                    1,
+                    2,
+                    3,
+                    6,
+                    7,
+                    9,
+                    13,
+                    14
+                ],
                 "available": true
             },
             {
