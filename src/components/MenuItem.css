@@ -305,28 +305,21 @@
 
 .menu-dish-image{
 
-    width:260px;
+    position:absolute;
+    right:-30px;
+    bottom:-20px;
 
+    width:260px;
     height:260px;
 
     object-fit:contain;
 
-    transform:translate(40px,25px);
-
-    filter:drop-shadow(0 18px 30px rgba(0,0,0,.18));
-
-    transition:.35s ease;
-
-    pointer-events:none;
-
-    user-select:none;
+    transform:none;
 
 }
 
 .menu-item:hover .menu-dish-image{
-
-    transform:translate(40px,25px) scale(1.05);
-
+    transform:none;
 }
 /* ===========================================================
    DIVIDER
