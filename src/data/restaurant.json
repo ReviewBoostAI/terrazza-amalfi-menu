@@ -315,7 +315,7 @@
                     9,
                     12
                 ],
-                "image": "/images/primi-terra/bolognese.png",
+                "image": "/images/primi-terra/bolognesev2.png",
                 "available": true
             },
             {
@@ -335,7 +335,7 @@
                     9,
                     12
                 ],
-                "image": "/images/primi-terra/pasta-pomodoro.png",
+                "image": "/images/primi-terra/pasta-pomodorov2.png",
                 "available": true
             },
             {
@@ -355,7 +355,7 @@
                     3,
                     9
                 ],
-                "image": "/images/primi-terra/tortellini.png",
+                "image": "/images/primi-terra/tortelliniv2.png",
                 "available": true
             },
             {
@@ -375,7 +375,7 @@
                     9,
                     12
                 ],
-                "image": "/images/primi-terra/arrabbiata.png",
+                "image": "/images/primi-terra/arrabbiatav2.png",
                 "available": true
             },
             {
@@ -396,7 +396,7 @@
                     9,
                     14
                 ],
-                "image": "/images/primi-terra/carbonara.png",
+                "image": "/images/primi-terra/carbonarav2.png",
                 "available": true
             },
             {
@@ -418,7 +418,7 @@
                     12,
                     14
                 ],
-                "image": "/images/primi-terra/lasagna.png",
+                "image": "/images/primi-terra/lasagnav2.png",
                 "available": true
             },
             {
@@ -437,7 +437,7 @@
                 "allergens": [
                     9
                 ],
-                "image": "/images/primi-terra/aglio-olio-peperoncino.png",
+                "image": "/images/primi-terra/aglio-olio-peperoncinov2.png",
                 "available": true
             },
             {
@@ -459,7 +459,7 @@
                     3,
                     9
                 ],
-                "image": "/images/primi-terra/pesto-pomodorini.png",
+                "image": "/images/primi-terra/pesto-pomodoriniv2.png",
                 "available": true
             }
         ],
