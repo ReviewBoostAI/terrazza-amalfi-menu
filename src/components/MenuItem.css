@@ -5,21 +5,13 @@
 .menu-item{
 
     position:relative;
-
-    background:rgba(255,255,255,.96);
-
+    background:#fff;
     border-radius:24px;
-
     border:1px solid rgba(184,134,70,.15);
-
-    backdrop-filter:blur(14px);
-
     box-shadow:0 12px 30px rgba(0,0,0,.06);
-
     padding:28px;
-
+    margin-bottom:22px;
     overflow:hidden;
-
     transition:.35s ease;
 
 }
@@ -27,7 +19,6 @@
 .menu-item:hover{
 
     transform:translateY(-4px);
-
     box-shadow:0 18px 40px rgba(0,0,0,.10);
 
 }
@@ -35,17 +26,11 @@
 .menu-item::before{
 
     content:"";
-
     position:absolute;
-
     left:0;
-
     top:0;
-
     width:6px;
-
     height:100%;
-
     background:linear-gradient(
         to bottom,
         #d6b36a,
@@ -54,6 +39,7 @@
 
 }
 
+
 /* ===========================================================
    LAYOUT
 =========================================================== */
@@ -61,18 +47,13 @@
 .menu-content{
 
     display:grid;
-
-    grid-template-columns:1fr 260px;
-
+    grid-template-columns:1fr 220px;
     align-items:center;
-
-    min-height:230px;
-
-    position:relative;
-
-    gap:10px;
+    gap:18px;
+    min-height:220px;
 
 }
+
 
 /* ===========================================================
    INFO
@@ -81,18 +62,13 @@
 .menu-info{
 
     display:flex;
-
     flex-direction:column;
-
-    justify-content:flex-start;
-
+    justify-content:space-between;
     gap:18px;
-
-    z-index:5;
-
-    padding-right:10px;
+    min-width:0;
 
 }
+
 
 /* ===========================================================
    TITLE
@@ -101,11 +77,8 @@
 .menu-title{
 
     display:flex;
-
     justify-content:space-between;
-
     align-items:flex-start;
-
     gap:20px;
 
 }
@@ -113,66 +86,63 @@
 .menu-title h3{
 
     font-family:"Cormorant Garamond",serif;
-
     font-size:34px;
-
-    line-height:1.1;
-
-    color:#3d2c1e;
-
     font-weight:700;
+    line-height:1.1;
+    color:#3d2c1e;
+    flex:1;
 
 }
 
 .menu-price{
 
     font-size:28px;
-
     font-weight:700;
-
     color:#b88646;
-
     white-space:nowrap;
+    flex-shrink:0;
 
 }
+
+
+/* ===========================================================
+   DESCRIPTION
+=========================================================== */
 
 .menu-description{
 
     font-size:15px;
-
+    line-height:1.6;
     color:#666;
 
-    line-height:1.6;
+}
+
+
+/* ===========================================================
+   FOOTER
+=========================================================== */
+
+.menu-footer{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
 
 }
 /* ===========================================================
    BADGES
 =========================================================== */
 
-.menu-footer{
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    gap:8px;
-
-}
-
 .badge{
 
     display:inline-flex;
-
     align-items:center;
-
     justify-content:center;
-
     padding:7px 12px;
 
     border-radius:999px;
 
     font-size:12px;
-
     font-weight:600;
 
     letter-spacing:.4px;
@@ -180,36 +150,25 @@
 }
 
 .badge.veg{
-
     background:#edf9ee;
-
     color:#2e7d32;
-
 }
 
 .badge.vegan{
-
     background:#daf6df;
-
     color:#1b5e20;
-
 }
 
 .badge.spicy{
-
     background:#ffe8e6;
-
     color:#d32f2f;
-
 }
 
 .badge.featured{
-
     background:#fff3d6;
-
     color:#a66a00;
-
 }
+
 
 /* ===========================================================
    ALLERGENI
@@ -217,29 +176,21 @@
 
 .menu-allergens{
 
-    margin-top:12px;
-
     display:flex;
+
+    flex-wrap:wrap;
 
     align-items:center;
 
     gap:10px;
 
-    flex-wrap:wrap;
+    margin-top:10px;
 
     padding:12px 16px;
 
     border-radius:999px;
 
-    background:rgba(255,255,255,.55);
-
-    backdrop-filter:blur(18px);
-
-    -webkit-backdrop-filter:blur(18px);
-
-    border:1px solid rgba(255,255,255,.8);
-
-    box-shadow:0 10px 25px rgba(0,0,0,.06);
+    background:#f8f8f8;
 
     width:max-content;
 
@@ -247,15 +198,17 @@
 
 .menu-allergens strong{
 
-    color:#666;
-
     font-size:12px;
+
+    color:#555;
 
 }
 
 .allergen-list{
 
     display:flex;
+
+    flex-wrap:wrap;
 
     gap:8px;
 
@@ -265,15 +218,11 @@
 
     padding:0;
 
-    flex-wrap:wrap;
-
 }
 
 .allergen-list li{
 
-    background:rgba(255,255,255,.7);
-
-    border:1px solid rgba(255,255,255,.9);
+    background:white;
 
     padding:5px 10px;
 
@@ -281,9 +230,10 @@
 
     font-size:11px;
 
-    color:#555;
+    color:#666;
 
 }
+
 
 /* ===========================================================
    IMMAGINE
@@ -291,35 +241,44 @@
 
 .menu-image{
 
-    position:relative;
-
     display:flex;
 
-    justify-content:flex-end;
+    justify-content:center;
 
-    align-items:flex-end;
+    align-items:center;
 
-    height:100%;
+    width:220px;
+
+    height:220px;
 
 }
 
 .menu-dish-image{
 
-    position:absolute;
-    right:-30px;
-    bottom:-20px;
+    display:block;
 
-    width:260px;
-    height:260px;
+    width:220px;
+
+    height:220px;
 
     object-fit:contain;
 
-    transform:none;
+    max-width:100%;
+
+    position:static;
+
+    transform:none !important;
+
+    transition:none;
+
+    filter:drop-shadow(0 14px 28px rgba(0,0,0,.18));
 
 }
 
 .menu-item:hover .menu-dish-image{
-    transform:none;
+
+    transform:none !important;
+
 }
 /* ===========================================================
    DIVIDER
@@ -342,55 +301,63 @@
     background:linear-gradient(
         to right,
         transparent,
-        rgba(184,134,70,.25),
+        rgba(184,134,70,.20),
         transparent
     );
 
 }
 
+
 /* ===========================================================
-   RESPONSIVE
+   TABLET
 =========================================================== */
 
-@media(max-width:900px){
+@media(max-width:992px){
 
     .menu-content{
 
-        grid-template-columns:1fr 180px;
+        grid-template-columns:1fr 190px;
+
+        gap:14px;
 
         min-height:180px;
 
     }
 
-    .menu-title h3{
+    .menu-image{
 
-        font-size:28px;
+        width:190px;
 
-    }
-
-    .menu-price{
-
-        font-size:22px;
-
-    }
-
-    .menu-description{
-
-        font-size:14px;
+        height:190px;
 
     }
 
     .menu-dish-image{
 
-        width:180px;
+        width:190px;
 
-        height:180px;
+        height:190px;
 
-        transform:translate(25px,18px);
+    }
+
+    .menu-title h3{
+
+        font-size:30px;
+
+    }
+
+    .menu-price{
+
+        font-size:24px;
 
     }
 
 }
+
+
+/* ===========================================================
+   MOBILE
+=========================================================== */
 
 @media(max-width:768px){
 
@@ -404,17 +371,35 @@
 
     .menu-content{
 
-        grid-template-columns:1fr 140px;
+        grid-template-columns:1fr 150px;
+
+        gap:10px;
 
         min-height:150px;
 
-        gap:0;
+    }
+
+    .menu-image{
+
+        width:150px;
+
+        height:150px;
+
+    }
+
+    .menu-dish-image{
+
+        width:150px;
+
+        height:150px;
 
     }
 
     .menu-title{
 
-        gap:8px;
+        align-items:flex-start;
+
+        gap:10px;
 
     }
 
@@ -434,17 +419,7 @@
 
         font-size:13px;
 
-        line-height:1.5;
-
-    }
-
-    .menu-dish-image{
-
-        width:150px;
-
-        height:150px;
-
-        transform:translate(20px,15px);
+        line-height:1.45;
 
     }
 
@@ -452,19 +427,20 @@
 
         padding:10px 14px;
 
-        gap:8px;
-
     }
 
     .allergen-list li{
 
         font-size:10px;
 
-        padding:4px 8px;
-
     }
 
 }
+
+
+/* ===========================================================
+   SMALL MOBILE
+=========================================================== */
 
 @media(max-width:480px){
 
@@ -472,7 +448,25 @@
 
         grid-template-columns:1fr 120px;
 
-        min-height:135px;
+        gap:8px;
+
+        min-height:120px;
+
+    }
+
+    .menu-image{
+
+        width:120px;
+
+        height:120px;
+
+    }
+
+    .menu-dish-image{
+
+        width:120px;
+
+        height:120px;
 
     }
 
@@ -491,16 +485,6 @@
     .menu-description{
 
         font-size:12px;
-
-    }
-
-    .menu-dish-image{
-
-        width:125px;
-
-        height:125px;
-
-        transform:translate(18px,10px);
 
     }
 
