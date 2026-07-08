@@ -3,35 +3,75 @@
 =========================================================== */
 
 .menu-item{
+
     position:relative;
-    background:rgba(255,255,255,.92);
+
+    background:rgba(255,255,255,.96);
+
+    border-radius:24px;
+
+    border:1px solid rgba(184,134,70,.15);
+
     backdrop-filter:blur(14px);
-    border-radius:22px;
-    padding:24px;
-    margin-bottom:18px;
-    border:1px solid rgba(184,134,70,.12);
-    box-shadow:0 10px 30px rgba(0,0,0,.06);
-    transition:all .35s ease;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+    padding:28px;
+
     overflow:hidden;
+
+    transition:.35s ease;
+
 }
 
 .menu-item:hover{
+
     transform:translateY(-4px);
-    box-shadow:0 20px 45px rgba(0,0,0,.10);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.10);
+
 }
 
 .menu-item::before{
+
     content:"";
+
     position:absolute;
-    top:0;
+
     left:0;
+
+    top:0;
+
     width:6px;
+
     height:100%;
+
     background:linear-gradient(
         to bottom,
         #d6b36a,
         #9d6d2f
     );
+
+}
+
+/* ===========================================================
+   LAYOUT
+=========================================================== */
+
+.menu-content{
+
+    display:grid;
+
+    grid-template-columns:1fr 260px;
+
+    align-items:center;
+
+    min-height:230px;
+
+    position:relative;
+
+    gap:10px;
+
 }
 
 /* ===========================================================
@@ -39,50 +79,18 @@
 =========================================================== */
 
 .menu-info{
+
     display:flex;
+
     flex-direction:column;
-    gap:14px;
 
-    padding-right:210px;
+    justify-content:flex-start;
 
-    position:relative;
+    gap:18px;
+
     z-index:5;
-}
-/* ===========================================================
-   DISH IMAGE
-=========================================================== */
 
-.menu-dish-image{
-
-    position:absolute;
-
-    right:-35px;
-
-    top:50%;
-
-    transform:translateY(-50%);
-
-    width:220px;
-
-    max-width:none;
-
-    height:auto;
-
-    object-fit:contain;
-
-    z-index:2;
-
-    pointer-events:none;
-
-    user-select:none;
-
-    filter:drop-shadow(0 20px 30px rgba(0,0,0,.18));
-
-}
-
-.menu-item:hover .menu-dish-image{
-
-    transform:translateY(-50%) scale(1.05);
+    padding-right:10px;
 
 }
 
@@ -91,198 +99,416 @@
 =========================================================== */
 
 .menu-title{
+
     display:flex;
+
     justify-content:space-between;
+
     align-items:flex-start;
-    gap:18px;
+
+    gap:20px;
+
 }
 
 .menu-title h3{
+
     font-family:"Cormorant Garamond",serif;
-    font-size:31px;
-    font-weight:700;
+
+    font-size:34px;
+
+    line-height:1.1;
+
     color:#3d2c1e;
-    line-height:1.15;
+
+    font-weight:700;
+
 }
 
 .menu-price{
-    font-size:26px;
-    font-weight:700;
-    color:#b88646;
-    white-space:nowrap;
-}
 
-/* ===========================================================
-   DESCRIPTION
-=========================================================== */
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#b88646;
+
+    white-space:nowrap;
+
+}
 
 .menu-description{
-    color:#6d6d6d;
+
     font-size:15px;
-    line-height:1.7;
+
+    color:#666;
+
+    line-height:1.6;
+
 }
-
-/* ===========================================================
-   FOOTER
-=========================================================== */
-
-.menu-footer{
-    display:flex;
-    flex-wrap:wrap;
-    gap:8px;
-}
-
 /* ===========================================================
    BADGES
 =========================================================== */
 
+.menu-footer{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+}
+
 .badge{
+
     display:inline-flex;
+
     align-items:center;
+
     justify-content:center;
+
     padding:7px 12px;
-    border-radius:40px;
+
+    border-radius:999px;
+
     font-size:12px;
+
     font-weight:600;
+
     letter-spacing:.4px;
+
 }
 
 .badge.veg{
+
     background:#edf9ee;
+
     color:#2e7d32;
+
 }
 
 .badge.vegan{
+
     background:#daf6df;
+
     color:#1b5e20;
+
 }
 
 .badge.spicy{
+
     background:#ffe8e6;
+
     color:#d32f2f;
+
 }
 
 .badge.featured{
+
     background:#fff3d6;
+
     color:#a66a00;
+
 }
 
 /* ===========================================================
-   ALLERGENS
+   ALLERGENI
 =========================================================== */
 
 .menu-allergens{
-    display:inline-flex;
+
+    margin-top:12px;
+
+    display:flex;
+
     align-items:center;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    padding:12px 16px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.55);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.8);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
     width:max-content;
-    padding:7px 14px;
-    border-radius:30px;
-    background:#f5f5f5;
-    color:#666;
-    font-size:12px;
-    font-weight:500;
+
 }
 
+.menu-allergens strong{
+
+    color:#666;
+
+    font-size:12px;
+
+}
+
+.allergen-list{
+
+    display:flex;
+
+    gap:8px;
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
+
+    flex-wrap:wrap;
+
+}
+
+.allergen-list li{
+
+    background:rgba(255,255,255,.7);
+
+    border:1px solid rgba(255,255,255,.9);
+
+    padding:5px 10px;
+
+    border-radius:999px;
+
+    font-size:11px;
+
+    color:#555;
+
+}
+
+/* ===========================================================
+   IMMAGINE
+=========================================================== */
+
+.menu-image{
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:flex-end;
+
+    height:100%;
+
+}
+
+.menu-dish-image{
+
+    width:260px;
+
+    height:260px;
+
+    object-fit:contain;
+
+    transform:translate(40px,25px);
+
+    filter:drop-shadow(0 18px 30px rgba(0,0,0,.18));
+
+    transition:.35s ease;
+
+    pointer-events:none;
+
+    user-select:none;
+
+}
+
+.menu-item:hover .menu-dish-image{
+
+    transform:translate(40px,25px) scale(1.05);
+
+}
 /* ===========================================================
    DIVIDER
 =========================================================== */
 
 .menu-item::after{
+
     content:"";
+
     position:absolute;
-    left:22px;
-    right:22px;
+
+    left:24px;
+
+    right:24px;
+
     bottom:0;
+
     height:1px;
+
     background:linear-gradient(
         to right,
         transparent,
         rgba(184,134,70,.25),
         transparent
     );
+
 }
 
 /* ===========================================================
    RESPONSIVE
 =========================================================== */
 
-@media(max-width:768px){
+@media(max-width:900px){
 
-    .menu-item{
-        padding:20px;
-        border-radius:18px;
-    }
+    .menu-content{
 
-    .menu-title{
-        flex-direction:column;
-        gap:10px;
+        grid-template-columns:1fr 180px;
+
+        min-height:180px;
+
     }
 
     .menu-title h3{
-        font-size:27px;
+
+        font-size:28px;
+
     }
 
     .menu-price{
+
         font-size:22px;
+
     }
 
     .menu-description{
+
         font-size:14px;
+
     }
 
-    .menu-footer{
-        gap:6px;
+    .menu-dish-image{
+
+        width:180px;
+
+        height:180px;
+
+        transform:translate(25px,18px);
+
     }
 
-    .badge{
-        font-size:11px;
-        padding:6px 10px;
+}
+
+@media(max-width:768px){
+
+    .menu-item{
+
+        padding:18px;
+
+        border-radius:18px;
+
     }
-    .menu-info{
 
-    padding-right:145px;
+    .menu-content{
+
+        grid-template-columns:1fr 140px;
+
+        min-height:150px;
+
+        gap:0;
+
+    }
+
+    .menu-title{
+
+        gap:8px;
+
+    }
+
+    .menu-title h3{
+
+        font-size:24px;
+
+    }
+
+    .menu-price{
+
+        font-size:20px;
+
+    }
+
+    .menu-description{
+
+        font-size:13px;
+
+        line-height:1.5;
+
+    }
+
+    .menu-dish-image{
+
+        width:150px;
+
+        height:150px;
+
+        transform:translate(20px,15px);
+
+    }
+
+    .menu-allergens{
+
+        padding:10px 14px;
+
+        gap:8px;
+
+    }
+
+    .allergen-list li{
+
+        font-size:10px;
+
+        padding:4px 8px;
+
+    }
 
 }
 
-.menu-dish-image{
+@media(max-width:480px){
 
-    width:150px;
+    .menu-content{
 
-    right:-20px;
+        grid-template-columns:1fr 120px;
 
-}
+        min-height:135px;
 
-}
-/* ===========================================================
-   ALLERGEN LIST
-=========================================================== */
+    }
 
-.allergen-list{
+    .menu-title h3{
 
-    margin:8px 0 0;
+        font-size:21px;
 
-    padding-left:18px;
+    }
 
-    display:flex;
+    .menu-price{
 
-    flex-wrap:wrap;
+        font-size:18px;
 
-    gap:8px;
+    }
 
-    list-style:none;
+    .menu-description{
 
-}
+        font-size:12px;
 
-.allergen-list li{
+    }
 
-    background:#f4f4f4;
+    .menu-dish-image{
 
-    padding:5px 10px;
+        width:125px;
 
-    border-radius:20px;
+        height:125px;
 
-    font-size:12px;
+        transform:translate(18px,10px);
 
-    color:#555;
+    }
 
 }

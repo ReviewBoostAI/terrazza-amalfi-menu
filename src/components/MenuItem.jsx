@@ -2,7 +2,6 @@ import "./MenuItem.css";
 import { motion } from "framer-motion";
 
 import { useLanguage } from "../context/LanguageContext";
-
 import allergens from "../data/allergenes.json";
 
 export default function MenuItem({ item }) {
@@ -15,135 +14,104 @@ export default function MenuItem({ item }) {
   return (
 
     <motion.article
-
       className="menu-item"
-
-      initial={{
-        opacity: 0,
-        y: 15
-      }}
-
-      animate={{
-        opacity: 1,
-        y: 0
-      }}
-
-      whileHover={{
-        y: -3
-      }}
-
-      transition={{
-        duration: .35
-      }}
-
+      initial={{ opacity: 0, y: 15 }}
+      animate={{ opacity: 1, y: 0 }}
+      whileHover={{ y: -3 }}
+      transition={{ duration: .35 }}
     >
 
-      {/* Immagine del piatto */}
-      {item.image && (
-        <img
-          src={item.image}
-          alt={item.name?.[language] || item.name?.it}
-          className="menu-dish-image"
-        />
-      )}
+      <div className="menu-content">
 
-      <div className="menu-info">
+        {/* COLONNA SINISTRA */}
+        <div className="menu-info">
 
-        <div className="menu-title">
+          <div className="menu-title">
 
-          <h3>
+            <h3>
+              {item.name?.[language] || item.name?.it}
+            </h3>
 
-            {item.name?.[language] || item.name?.it}
+            <span className="menu-price">
+              {item.price != null
+                ? `€ ${Number(item.price).toFixed(2)}`
+                : t.labels.priceOnRequest}
+            </span>
 
-          </h3>
+          </div>
 
-          <span className="menu-price">
+          {item.description?.[language] && (
 
-            {item.price != null
-              ? `€ ${Number(item.price).toFixed(2)}`
-              : t.labels.priceOnRequest}
+            <p className="menu-description">
+              {item.description[language]}
+            </p>
 
-          </span>
+          )}
+
+          <div className="menu-footer">
+
+            {item.vegetarian && (
+              <span className="badge veg">
+                🥗 {t.badges.vegetarian}
+              </span>
+            )}
+
+            {item.vegan && (
+              <span className="badge vegan">
+                🌱 {t.badges.vegan}
+              </span>
+            )}
+
+            {item.spicy && (
+              <span className="badge spicy">
+                🌶 {t.badges.spicy}
+              </span>
+            )}
+
+            {item.featured && (
+              <span className="badge featured">
+                ⭐ {t.badges.featured}
+              </span>
+            )}
+
+          </div>
+
+          {allergenNames.length > 0 && (
+
+            <div className="menu-allergens">
+
+              <strong>
+                {t.labels.allergens}:
+              </strong>
+
+              <ul className="allergen-list">
+
+                {allergenNames.map((name, index) => (
+
+                  <li key={index}>
+                    {name}
+                  </li>
+
+                ))}
+
+              </ul>
+
+            </div>
+
+          )}
 
         </div>
 
-        {item.description?.[language] && (
+        {/* COLONNA DESTRA */}
+        {item.image && (
 
-          <p className="menu-description">
+          <div className="menu-image">
 
-            {item.description[language]}
-
-          </p>
-
-        )}
-
-        <div className="menu-footer">
-
-          {item.vegetarian && (
-
-            <span className="badge veg">
-
-              🥗 {t.badges.vegetarian}
-
-            </span>
-
-          )}
-
-          {item.vegan && (
-
-            <span className="badge vegan">
-
-              🌱 {t.badges.vegan}
-
-            </span>
-
-          )}
-
-          {item.spicy && (
-
-            <span className="badge spicy">
-
-              🌶 {t.badges.spicy}
-
-            </span>
-
-          )}
-
-          {item.featured && (
-
-            <span className="badge featured">
-
-              ⭐ {t.badges.featured}
-
-            </span>
-
-          )}
-
-        </div>
-
-        {allergenNames.length > 0 && (
-
-          <div className="menu-allergens">
-
-            <strong>
-
-              {t.labels.allergens}:
-
-            </strong>
-
-            <ul className="allergen-list">
-
-              {allergenNames.map((name, index) => (
-
-                <li key={index}>
-
-                  {name}
-
-                </li>
-
-              ))}
-
-            </ul>
+            <img
+              src={item.image}
+              alt={item.name?.[language] || item.name?.it}
+              className="menu-dish-image"
+            />
 
           </div>
 
