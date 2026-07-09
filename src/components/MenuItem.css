@@ -47,7 +47,7 @@
 .menu-content{
 
     display:grid;
-    grid-template-columns:1fr 220px;
+    grid-template-columns:1fr 360px;
     align-items:center;
     gap:18px;
     min-height:220px;
@@ -247,9 +247,9 @@
 
     align-items:center;
 
-    width:220px;
+    width:360px;
 
-    height:220px;
+    height:360px;
 
 }
 
@@ -257,9 +257,9 @@
 
     display:block;
 
-    width:220px;
+    width:360px;
 
-    height:220px;
+    height:360px;
 
     object-fit:contain;
 
@@ -326,17 +326,17 @@
 
     .menu-image{
 
-        width:190px;
+        width:260px;
 
-        height:190px;
+        height:260px;
 
     }
 
     .menu-dish-image{
 
-        width:190px;
+        width:260px;
 
-        height:190px;
+        height:260px;
 
     }
 
@@ -381,17 +381,17 @@
 
     .menu-image{
 
-        width:150px;
+        width:190px;
 
-        height:150px;
+        height:190px;
 
     }
 
     .menu-dish-image{
 
-        width:150px;
+        width:190px;
 
-        height:150px;
+        height:190px;
 
     }
 
@@ -456,17 +456,17 @@
 
     .menu-image{
 
-        width:120px;
+        width:160px;
 
-        height:120px;
+        height:160px;
 
     }
 
     .menu-dish-image{
 
-        width:120px;
+        width:160px;
 
-        height:120px;
+        height:160px;
 
     }
 
