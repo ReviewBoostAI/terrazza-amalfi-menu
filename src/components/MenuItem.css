@@ -247,9 +247,9 @@
 
     align-items:center;
 
-    width:360px;
+    width:510px;
 
-    height:360px;
+    height:510px;
 
 }
 
@@ -257,9 +257,9 @@
 
     display:block;
 
-    width:360px;
+    width:510px;
 
-    height:360px;
+    height:510px;
 
     object-fit:contain;
 
@@ -326,17 +326,17 @@
 
     .menu-image{
 
-        width:260px;
+        width:480px;
 
-        height:260px;
+        height:480px;
 
     }
 
     .menu-dish-image{
 
-        width:260px;
+        width:480px;
 
-        height:260px;
+        height:480px;
 
     }
 
@@ -456,17 +456,17 @@
 
     .menu-image{
 
-        width:160px;
+        width:410px;
 
-        height:160px;
+        height:410px;
 
     }
 
     .menu-dish-image{
 
-        width:160px;
+        width:410px;
 
-        height:160px;
+        height:410px;
 
     }
 
