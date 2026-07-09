@@ -371,11 +371,11 @@
 
     .menu-content{
 
-        grid-template-columns:1fr 150px;
+        grid-template-columns:1fr 200px;
 
         gap:10px;
 
-        min-height:150px;
+        min-height:200px;
 
     }
 
@@ -446,11 +446,11 @@
 
     .menu-content{
 
-        grid-template-columns:1fr 160px;
+        grid-template-columns:1fr 170px;
 
         gap:8px;
 
-        min-height:160px;
+        min-height:170px;
 
     }
 
