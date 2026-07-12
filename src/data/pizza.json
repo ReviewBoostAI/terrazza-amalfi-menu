@@ -18,6 +18,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/marinara.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -42,6 +43,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/margherita.png",
         "available": true,
         "featured": true,
         "vegetarian": true,
@@ -66,6 +68,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/primavera.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -86,6 +89,7 @@
         },
         "price": 8.5,
         "allergens": [],
+        "image": "/images/pizze-classiche/romana.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -110,6 +114,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/diavola.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -135,6 +140,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/carciofi.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -159,6 +165,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/prosciutto.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -183,6 +190,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/pugliese.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -207,6 +215,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/viennese.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -233,6 +242,7 @@
           13,
           14
         ],
+        "image": "/images/pizze-classiche/bismarck.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -258,6 +268,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/tonno_cipolla.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -282,6 +293,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/sandaniele.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -307,6 +319,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/prosciutto_funghi.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -332,6 +345,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/funghi.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -356,6 +370,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/gorgonzola_speck.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -382,6 +397,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/zucchine_gamberetti.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -432,6 +448,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/brie_speck.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -456,6 +473,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/brie_zucchine.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -481,6 +499,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/4stagioni.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -506,6 +525,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/capricciosa.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -530,6 +550,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/melanzane_brie.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -554,6 +575,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/parmigiana.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -578,6 +600,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/verdure_grigliate.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -603,6 +626,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/contadina.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -628,6 +652,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/pancetta_carciofi.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -652,6 +677,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/bresaola_rucola_grana.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -678,6 +704,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/mari_monti.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -702,6 +729,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/simpatica.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -726,6 +754,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/reginella.png",
         "available": true,
         "featured": true,
         "vegetarian": true,
@@ -751,6 +780,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/calzone.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -775,6 +805,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/vesuvio.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -799,6 +830,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/tirolese.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -824,6 +856,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/salsiccia_chiodini.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -849,6 +882,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-classiche/hawaii.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -873,6 +907,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/spinaci_ricotta.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -898,6 +933,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/calamri.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -922,6 +958,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-classiche/4formaggi.png",
         "available": true,
         "featured": true,
         "vegetarian": true,
