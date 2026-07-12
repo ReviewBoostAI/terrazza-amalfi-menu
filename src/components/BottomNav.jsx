@@ -44,6 +44,17 @@ export default function BottomNav() {
 
   ];
 
+  const handleNavigation = (path) => {
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+
+    navigate(path);
+
+  };
+
   return (
 
     <nav className="bottom-nav">
@@ -64,7 +75,7 @@ export default function BottomNav() {
 
             whileHover={{ y: -3 }}
 
-            onClick={() => navigate(item.path)}
+            onClick={() => handleNavigation(item.path)}
 
           >
 
