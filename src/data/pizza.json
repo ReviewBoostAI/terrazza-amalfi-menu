@@ -933,7 +933,7 @@
           7,
           9
         ],
-        "image": "/images/pizze-classiche/calamri.png",
+        "image": "/images/pizze-classiche/calamari.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -985,6 +985,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-speciali/cornetto1.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -1009,6 +1010,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-speciali/cornetto2.png",
         "available": true,
         "featured": false,
         "vegetarian": true,
@@ -1033,6 +1035,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-speciali/arrotolata1.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -1058,6 +1061,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-speciali/arrotolata2.png",
         "available": true,
         "featured": false,
         "vegetarian": false,
@@ -1082,6 +1086,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-speciali/porcona.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -1131,6 +1136,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-speciali/amalfi.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -1155,6 +1161,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-speciali/gigi.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -1182,6 +1189,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-bianche/biancaneve.png",
         "available": true,
         "featured": true,
         "vegetarian": true,
@@ -1207,6 +1215,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-bianche/bianca_bernie.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -1232,6 +1241,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-bianche/salmone_philadelphia.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -1257,6 +1267,7 @@
           9,
           13
         ],
+        "image": "/images/pizze-bianche/rustica.png",
         "available": true,
         "featured": true,
         "vegetarian": false,
@@ -1283,6 +1294,7 @@
           7,
           9
         ],
+        "image": "/images/pizze-bianche/leo.png",
         "available": true,
         "featured": true,
         "vegetarian": true,
