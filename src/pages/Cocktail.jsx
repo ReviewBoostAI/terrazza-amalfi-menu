@@ -49,10 +49,17 @@ export default function Cocktail() {
       <section className="restaurant-content">
 
         <CategoryTabs
-          categories={categories}
-          activeCategory={category}
-          onChange={setCategory}
-        />
+  categories={categories}
+  activeCategory={category}
+  onChange={(newCategory) => {
+    setCategory(newCategory);
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }}
+/>
 
         <AnimatePresence mode="wait">
 
