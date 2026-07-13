@@ -15,6 +15,7 @@
                 },
                 "price": 12.5,
                 "allergens": [],
+                "image": "/images/antipasti/prosciutto_melone.png",
                 "available": true
             },
             {
@@ -35,6 +36,7 @@
                     11,
                     13
                 ],
+                "image": "/images/antipasti/tagliere_veneto.png",
                 "available": true
             },
             {
@@ -53,6 +55,7 @@
                 "allergens": [
                     4
                 ],
+                "image": "/images/antipasti/cozze_marinara.png",
                 "available": true
             },
             {
@@ -72,6 +75,7 @@
                     13,
                     14
                 ],
+                "image": "/images/antipasti/cocktail_gamberetti.png",
                 "available": true
             },
             {
@@ -88,6 +92,7 @@
                 },
                 "price": 15,
                 "allergens": [],
+                "image": "/images/antipasti/crudo_burrata.png",
                 "available": true
             },
             {
@@ -104,6 +109,7 @@
                 },
                 "price": 9,
                 "allergens": [],
+                "image": "/images/antipasti/caprese.png",
                 "available": true
             },
             {
@@ -124,6 +130,7 @@
                     5,
                     8
                 ],
+                "image": "/images/antipasti/insalata_mare.png",
                 "available": true
             },
             {
@@ -142,6 +149,7 @@
                 "allergens": [
                     4
                 ],
+                "image": "/images/antipasti/cozze_vongole.png",
                 "available": true
             },
             {
@@ -160,6 +168,7 @@
                 "allergens": [
                     9
                 ],
+                "image": "/images/antipasti/bruschetta.png",
                 "available": true
             },
             {
