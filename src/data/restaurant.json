@@ -202,6 +202,7 @@
                     3,
                     9
                 ],
+                "image": "/images/zuppe/crema_asparagi.png",
                 "available": true
             },
             {
@@ -221,6 +222,7 @@
                     3,
                     9
                 ],
+                "image": "/images/zuppe/crema_funghi.png",
                 "available": true
             },
             {
@@ -237,6 +239,7 @@
                 },
                 "price": 8,
                 "allergens": [],
+                "image": "/images/zuppe/minestrone.png",
                 "available": true
             },
             {
@@ -274,6 +277,7 @@
                 "allergens": [
                     9
                 ],
+                "image": "/images/zuppe/zuppa_pomodoro.png",
                 "available": true
             },
             {
@@ -294,6 +298,7 @@
                     5,
                     8
                 ],
+                "image": "/images/zuppe/zuppa_pesce.png",
                 "available": true
             }
         ],
@@ -482,6 +487,7 @@
                     9,
                     12
                 ],
+                "image": "/images/primi-mare/spaghetti_busara.png",
                 "available": true
             },
             {
@@ -505,6 +511,7 @@
                     13,
                     14
                 ],
+                "image": "/images/primi-mare/spaghetti_scoglio.png",
                 "available": true
             },
             {
@@ -524,6 +531,7 @@
                     4,
                     9
                 ],
+                "image": "/images/primi-mare/spaghetti_vongole.png",
                 "available": true
             },
             {
@@ -547,6 +555,7 @@
                     13,
                     14
                 ],
+                "image": "/images/primi-mare/gnochetti_granchio_rucola.png",
                 "available": true
             },
             {
@@ -567,6 +576,7 @@
                     5,
                     9
                 ],
+                "image": "/images/primi-mare/pennette_salmone.png",
                 "available": true
             },
             {
@@ -589,6 +599,7 @@
                     8,
                     13
                 ],
+                "image": "/images/primi-mare/tagliolini_astice_crostacei.png",
                 "available": true
             },
             {
@@ -611,6 +622,7 @@
                     8,
                     13
                 ],
+                "image": "/images/primi-mare/risotto_pescatora.png",
                 "available": true
             },
             {
@@ -633,6 +645,7 @@
                     9,
                     12
                 ],
+                "image": "/images/primi-mare/spaghettone_gambero_capasanta.png",
                 "available": true
             }
         ],
