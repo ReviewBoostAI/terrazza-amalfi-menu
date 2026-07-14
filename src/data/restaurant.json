@@ -675,6 +675,7 @@
                 "allergens": [
                     3
                 ],
+                "image": "/images/carne/tagliata_rucola_grana.png",
                 "available": true
             },
             {
@@ -693,6 +694,7 @@
                 "allergens": [
                     9
                 ],
+                "image": "/images/carne/bistecca_roast_beef.png",
                 "available": true
             },
             {
@@ -709,6 +711,7 @@
                 },
                 "price": 24,
                 "allergens": [],
+                "image": "/images/carne/costata_500.png",
                 "available": true
             },
             {
@@ -725,6 +728,7 @@
                 },
                 "price": 23,
                 "allergens": [],
+                "image": "/images/carne/filetto_griglia.png",
                 "available": true
             },
             {
@@ -744,6 +748,7 @@
                     3,
                     9
                 ],
+                "image": "/images/carne/filetto_pepe_verde.png",
                 "available": true
             },
             {
@@ -760,6 +765,7 @@
                 },
                 "price": 12,
                 "allergens": [],
+                "image": "/images/carne/tagliata_pollo.png",
                 "available": true
             },
             {
@@ -780,6 +786,7 @@
                     9,
                     14
                 ],
+                "image": "/images/carne/cotoletta_milanese.png",
                 "available": true
             },
             {
@@ -798,6 +805,7 @@
                 "allergens": [
                     9
                 ],
+                "image": "/images/carne/wurstel_patate.png",
                 "available": true
             },
             {
@@ -821,6 +829,7 @@
                     7,
                     9
                 ],
+                "image": "/images/carne/hamburger_patate.png",
                 "available": true
             }
         ],
