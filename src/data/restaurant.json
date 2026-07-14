@@ -851,6 +851,7 @@
                     5,
                     6
                 ],
+                "image": "/images/pesce/tagliata_tonno.png",
                 "available": true
             },
             {
@@ -876,6 +877,7 @@
                     13,
                     14
                 ],
+                "image": "/images/pesce/calamari_fritti.png",
                 "available": true
             },
             {
@@ -902,6 +904,7 @@
                     13,
                     14
                 ],
+                "image": "/images/pesce/fritto_misto.png",
                 "available": true
             },
             {
@@ -918,6 +921,7 @@
                 },
                 "price": 19,
                 "allergens": [],
+                "image": "/images/pesce/coda_rospo.png",
                 "available": true
             },
             {
@@ -936,6 +940,7 @@
                 "allergens": [
                     8
                 ],
+                "image": "/images/pesce/scampi_griglia.png",
                 "available": true
             },
             {
@@ -956,6 +961,7 @@
                     5,
                     8
                 ],
+                "image": "/images/pesce/grigliata_pesce.png",
                 "available": true
             },
             {
@@ -974,6 +980,7 @@
                 "allergens": [
                     5
                 ],
+                "image": "/images/pesce/orata_griglia.png",
                 "available": true
             },
             {
@@ -992,6 +999,7 @@
                 "allergens": [
                     5
                 ],
+                "image": "/images/pesce/branzino_griglia.png",
                 "available": true
             },
             {
@@ -1010,6 +1018,7 @@
                 "allergens": [
                     5
                 ],
+                "image": "/images/pesce/seppie_calamari_griglia.png",
                 "available": true
             }
         ],
