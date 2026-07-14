@@ -1031,6 +1031,7 @@
                     3,
                     13
                 ],
+                "image": "/images/insalate/brasiliana.png",
                 "available": true
             },
             {
@@ -1053,6 +1054,7 @@
                     10,
                     13
                 ],
+                "image": "/images/insalate/david.png",
                 "available": true
             },
             {
@@ -1074,6 +1076,7 @@
                     8,
                     13
                 ],
+                "image": "/images/insalate/amalfi.png",
                 "available": true
             },
             {
@@ -1093,6 +1096,7 @@
                     3,
                     13
                 ],
+                "image": "/images/insalate/greca.png",
                 "available": true
             },
             {
@@ -1111,6 +1115,7 @@
                 "allergens": [
                     3
                 ],
+                "image": "/images/insalate/caesar.png",
                 "available": true
             },
             {
@@ -1132,6 +1137,7 @@
                     13,
                     14
                 ],
+                "image": "/images/insalate/gustosa.png",
                 "available": true
             }
         ],
