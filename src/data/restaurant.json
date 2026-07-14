@@ -1143,6 +1143,7 @@
                 "allergens": [
                     9
                 ],
+                "image": "/images/contorni/patate_fritte.png",
                 "available": true
             },
             {
@@ -1161,6 +1162,7 @@
                 "allergens": [
                     9
                 ],
+                "image": "/images/contorni/verdure_fritte.png",
                 "available": true
             },
             {
@@ -1177,6 +1179,7 @@
                 },
                 "price": 7,
                 "allergens": [],
+                "image": "/images/contorni/verdure_griglia.png",
                 "available": true
             },
             {
@@ -1193,6 +1196,7 @@
                 },
                 "price": 5,
                 "allergens": [],
+                "image": "/images/contorni/insalata_mista.png",
                 "available": true
             },
             {
@@ -1211,6 +1215,7 @@
                 "allergens": [
                     9
                 ],
+                "image": "/images/contorni/pizza_pane.png",
                 "available": true
             },
             {
@@ -1229,6 +1234,7 @@
                 "allergens": [
                     3
                 ],
+                "image": "/images/contorni/patate_forno.png",
                 "available": true
             }
         ],
