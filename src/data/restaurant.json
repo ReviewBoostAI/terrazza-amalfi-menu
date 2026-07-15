@@ -1317,9 +1317,9 @@
                 },
                 "price": 6,
                 "allergens": [
-                    2,
                     3,
-                    9
+                    9,
+                    14
                 ],
                 "image": "/images/dessert/dubai_chocolate.png",
                 "available": true
@@ -1381,7 +1381,7 @@
                     9,
                     14
                 ],
-                "image": "/images/dessert/profiteroles.png",
+                "image": "/images/dessert/profiteroles_cacao.png",
                 "available": true
             },
             {
