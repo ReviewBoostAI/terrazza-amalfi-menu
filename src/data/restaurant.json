@@ -1275,15 +1275,10 @@
                     "en": "",
                     "de": ""
                 },
-                "price": 5,
+                "price": 6,
                 "allergens": [
-                    1,
-                    2,
                     3,
-                    6,
-                    7,
                     9,
-                    13,
                     14
                 ],
                 "image": "/images/dessert/tiramisu.png",
@@ -1301,7 +1296,7 @@
                     "en": "",
                     "de": ""
                 },
-                "price": 5,
+                "price": 6,
                 "allergens": [
                     3
                 ],
@@ -1320,16 +1315,11 @@
                     "en": "",
                     "de": ""
                 },
-                "price": 5,
+                "price": 6,
                 "allergens": [
-                    1,
                     2,
                     3,
-                    6,
-                    7,
-                    9,
-                    13,
-                    14
+                    9
                 ],
                 "image": "/images/dessert/dubai_chocolate.png",
                 "available": true
@@ -1346,16 +1336,9 @@
                     "en": "",
                     "de": ""
                 },
-                "price": 5,
+                "price": 6,
                 "allergens": [
-                    1,
-                    2,
-                    3,
-                    6,
-                    7,
-                    9,
-                    13,
-                    14
+                    3
                 ],
                 "image": "/images/dessert/foresta_nera.png",
                 "available": true
@@ -1374,13 +1357,7 @@
                 },
                 "price": 5,
                 "allergens": [
-                    1,
-                    2,
                     3,
-                    6,
-                    7,
-                    9,
-                    13,
                     14
                 ],
                 "image": "/images/dessert/meringata.png",
@@ -1398,15 +1375,10 @@
                     "en": "",
                     "de": ""
                 },
-                "price": 5,
+                "price": 6,
                 "allergens": [
-                    1,
-                    2,
                     3,
-                    6,
-                    7,
                     9,
-                    13,
                     14
                 ],
                 "image": "/images/dessert/profiteroles.png",
@@ -1444,7 +1416,11 @@
                     "de": ""
                 },
                 "price": 6,
-                "allergens": [],
+                "allergens": [
+                    2,
+                    3,
+                    9
+                ],
                 "image": "/images/dessert/semifreddo_pistacchio.png",
                 "available": true
             },
@@ -1460,8 +1436,10 @@
                     "en": "",
                     "de": ""
                 },
-                "price": 6,
-                "allergens": [],
+                "price": 5,
+                "allergens": [
+                    3
+                ],
                 "image": "/images/dessert/tartufo_nero.png",
                 "available": true
             },
@@ -1477,16 +1455,11 @@
                     "en": "",
                     "de": ""
                 },
-                "price": 9,
+                "price": 7,
                 "allergens": [
-                    1,
                     2,
                     3,
-                    6,
-                    7,
-                    9,
-                    13,
-                    14
+                    9
                 ],
                 "image": "/images/dessert/speciale_casa.png",
                 "available": true
@@ -1503,8 +1476,11 @@
                     "en": "",
                     "de": ""
                 },
-                "price": 5,
-                "allergens": [],
+                "price": 6,
+                "allergens": [
+                    3,
+                    9
+                ],
                 "image": "/images/dessert/salame_cioccolato.png",
                 "available": true
             }
