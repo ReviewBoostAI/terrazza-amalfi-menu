@@ -1286,6 +1286,7 @@
                     13,
                     14
                 ],
+                "image": "/images/dessert/tiramisu.png",
                 "available": true
             },
             {
@@ -1304,14 +1305,15 @@
                 "allergens": [
                     3
                 ],
+                "image": "/images/dessert/panna_cotta.png",
                 "available": true
             },
             {
                 "id": 65,
                 "name": {
-                    "it": "Semifreddo al Pistacchio",
-                    "en": "Pistachio Semifreddo",
-                    "de": "Pistazien-Semifreddo"
+                    "it": "Semifreddo Dubai Chocolate",
+                    "en": "Dubai Chocolate Semifreddo",
+                    "de": "Dubai Chocolate-Semifreddo"
                 },
                 "description": {
                     "it": "",
@@ -1329,14 +1331,15 @@
                     13,
                     14
                 ],
+                "image": "/images/dessert/dubai_chocolate.png",
                 "available": true
             },
             {
                 "id": 66,
                 "name": {
-                    "it": "Semifreddo allo Yogurt",
-                    "en": "Yogurt Semifreddo",
-                    "de": "Joghurt-Semifreddo"
+                    "it": "Foresta Nera Semifreddo",
+                    "en": "Black Forest Semifreddo",
+                    "de": "Schwarzwald-Semifreddo"
                 },
                 "description": {
                     "it": "",
@@ -1354,6 +1357,7 @@
                     13,
                     14
                 ],
+                "image": "/images/dessert/foresta_nera.png",
                 "available": true
             },
             {
@@ -1379,6 +1383,7 @@
                     13,
                     14
                 ],
+                "image": "/images/dessert/meringata.png",
                 "available": true
             },
             {
@@ -1404,14 +1409,15 @@
                     13,
                     14
                 ],
+                "image": "/images/dessert/profiteroles.png",
                 "available": true
             },
             {
                 "id": 69,
                 "name": {
-                    "it": "Fragole con Panna",
-                    "en": "Strawberries with Cream",
-                    "de": "Erdbeeren mit Sahne"
+                    "it": "Mango Passion Semifreddo",
+                    "en": "Mango Passion Semifreddo",
+                    "de": "Mango-Passionsfrucht-Semifreddo"
                 },
                 "description": {
                     "it": "",
@@ -1422,14 +1428,15 @@
                 "allergens": [
                     3
                 ],
+                "image": "/images/dessert/mango_passion.png",
                 "available": true
             },
             {
                 "id": 70,
                 "name": {
-                    "it": "Macedonia di Frutta",
-                    "en": "Fruit Salad",
-                    "de": "Obstsalat"
+                    "it": "Cheescake al Pistacchio",
+                    "en": "Pistachio Cheesecake",
+                    "de": "Pistazien-Käsekuchen"
                 },
                 "description": {
                     "it": "",
@@ -1438,14 +1445,15 @@
                 },
                 "price": 6,
                 "allergens": [],
+                "image": "/images/dessert/semifreddo_pistacchio.png",
                 "available": true
             },
             {
                 "id": 71,
                 "name": {
-                    "it": "Ananas a Fette",
-                    "en": "Fresh Pineapple",
-                    "de": "Frische Ananas"
+                    "it": "Tartufo Nero",
+                    "en": "Black Truffle",
+                    "de": "Schwarzer Trüffel"
                 },
                 "description": {
                     "it": "",
@@ -1454,6 +1462,7 @@
                 },
                 "price": 6,
                 "allergens": [],
+                "image": "/images/dessert/tartufo_nero.png",
                 "available": true
             },
             {
@@ -1479,22 +1488,24 @@
                     13,
                     14
                 ],
+                "image": "/images/dessert/speciale_casa.png",
                 "available": true
             },
             {
                 "id": 73,
                 "name": {
-                    "it": "Sgroppino",
-                    "en": "Sgroppino",
-                    "de": "Sgroppino"
+                    "it": "Salame al Cioccolato",
+                    "en": "Chocolate Salami",
+                    "de": "Schokoladensalami"
                 },
                 "description": {
-                    "it": "Limone, caffè o liquirizia",
-                    "en": "Lemon, coffee or liquorice",
-                    "de": "Zitrone, Kaffee oder Lakritz"
+                    "it": "",
+                    "en": "",
+                    "de": ""
                 },
                 "price": 5,
                 "allergens": [],
+                "image": "/images/dessert/salame_cioccolato.png",
                 "available": true
             }
         ]
